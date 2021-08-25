@@ -1,0 +1,593 @@
+###########################################################################
+## Simplified Code - one score at a time
+###########################################################################
+### NAT2
+bsub -e TIE_Calc_NAT2_500_20_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 4854526 NAT2 20 IBS 1 1000
+bsub -e TIE_Calc_NAT2_500_20_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2690141 NAT2 20 IBS 1001 2000
+bsub -e TIE_Calc_NAT2_500_20_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9674584 NAT2 20 IBS 2001 3000
+bsub -e TIE_Calc_NAT2_500_20_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 4748415 NAT2 20 IBS 3001 4000
+bsub -e TIE_Calc_NAT2_500_20_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9105536 NAT2 20 IBS 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_20_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 6510004 NAT2 20 Incomp 1 1000
+bsub -e TIE_Calc_NAT2_500_20_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5121961 NAT2 20 Incomp 1001 2000
+bsub -e TIE_Calc_NAT2_500_20_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1342093 NAT2 20 Incomp 2001 3000
+bsub -e TIE_Calc_NAT2_500_20_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 4923316 NAT2 20 Incomp 3001 4000
+bsub -e TIE_Calc_NAT2_500_20_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9359866 NAT2 20 Incomp 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_20_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1244943 NAT2 20 AMS 1 1000
+bsub -e TIE_Calc_NAT2_500_20_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5753570 NAT2 20 AMS 1001 2000
+bsub -e TIE_Calc_NAT2_500_20_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5556062 NAT2 20 AMS 2001 3000
+bsub -e TIE_Calc_NAT2_500_20_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 7336048 NAT2 20 AMS 3001 4000
+bsub -e TIE_Calc_NAT2_500_20_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 630600 NAT2 20 AMS 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_20_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1835865 NAT2 20 BinMM 1 1000
+bsub -e TIE_Calc_NAT2_500_20_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5406380 NAT2 20 BinMM 1001 2000
+bsub -e TIE_Calc_NAT2_500_20_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1907771 NAT2 20 BinMM 2001 3000
+bsub -e TIE_Calc_NAT2_500_20_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1743937 NAT2 20 BinMM 3001 4000
+bsub -e TIE_Calc_NAT2_500_20_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_20_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5550789 NAT2 20 BinMM 4001 5000
+ 
+bsub -e TIE_Calc_NAT2_500_10_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 944444 NAT2 10 IBS 1 1000
+bsub -e TIE_Calc_NAT2_500_10_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2371691 NAT2 10 IBS 1001 2000
+bsub -e TIE_Calc_NAT2_500_10_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2111938 NAT2 10 IBS 2001 3000
+bsub -e TIE_Calc_NAT2_500_10_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2026326 NAT2 10 IBS 3001 4000
+bsub -e TIE_Calc_NAT2_500_10_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9286457 NAT2 10 IBS 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_10_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1509015 NAT2 10 Incomp 1 1000
+bsub -e TIE_Calc_NAT2_500_10_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5463746 NAT2 10 Incomp 1001 2000
+bsub -e TIE_Calc_NAT2_500_10_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9223421 NAT2 10 Incomp 2001 3000
+bsub -e TIE_Calc_NAT2_500_10_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2398671 NAT2 10 Incomp 3001 4000
+bsub -e TIE_Calc_NAT2_500_10_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1765940 NAT2 10 Incomp 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_10_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1975951 NAT2 10 AMS 1 1000
+bsub -e TIE_Calc_NAT2_500_10_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2371624 NAT2 10 AMS 1001 2000
+bsub -e TIE_Calc_NAT2_500_10_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 8472333 NAT2 10 AMS 2001 3000
+bsub -e TIE_Calc_NAT2_500_10_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1218049 NAT2 10 AMS 3001 4000
+bsub -e TIE_Calc_NAT2_500_10_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2555205 NAT2 10 AMS 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_10_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9288547 NAT2 10 BinMM 1 1000
+bsub -e TIE_Calc_NAT2_500_10_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5923353 NAT2 10 BinMM 1001 2000
+bsub -e TIE_Calc_NAT2_500_10_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 8594878 NAT2 10 BinMM 2001 3000
+bsub -e TIE_Calc_NAT2_500_10_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2722471 NAT2 10 BinMM 3001 4000
+bsub -e TIE_Calc_NAT2_500_10_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_10_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 3363778 NAT2 10 BinMM 4001 5000
+ 
+bsub -e TIE_Calc_NAT2_500_5_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1816622 NAT2 5 IBS 1 1000
+bsub -e TIE_Calc_NAT2_500_5_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9976565 NAT2 5 IBS 1001 2000
+bsub -e TIE_Calc_NAT2_500_5_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 6189269 NAT2 5 IBS 2001 3000
+bsub -e TIE_Calc_NAT2_500_5_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1292399 NAT2 5 IBS 3001 4000
+bsub -e TIE_Calc_NAT2_500_5_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2812944 NAT2 5 IBS 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_5_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 3922852 NAT2 5 Incomp 1 1000
+bsub -e TIE_Calc_NAT2_500_5_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 3185787 NAT2 5 Incomp 1001 2000
+bsub -e TIE_Calc_NAT2_500_5_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1303544 NAT2 5 Incomp 2001 3000
+bsub -e TIE_Calc_NAT2_500_5_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5683820 NAT2 5 Incomp 3001 4000
+bsub -e TIE_Calc_NAT2_500_5_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 7215611 NAT2 5 Incomp 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_5_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1067890 NAT2 5 AMS 1 1000
+bsub -e TIE_Calc_NAT2_500_5_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 3391855 NAT2 5 AMS 1001 2000
+bsub -e TIE_Calc_NAT2_500_5_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5631212 NAT2 5 AMS 2001 3000
+bsub -e TIE_Calc_NAT2_500_5_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 8454523 NAT2 5 AMS 3001 4000
+bsub -e TIE_Calc_NAT2_500_5_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9355904 NAT2 5 AMS 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_5_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5677460 NAT2 5 BinMM 1 1000
+bsub -e TIE_Calc_NAT2_500_5_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 6883290 NAT2 5 BinMM 1001 2000
+bsub -e TIE_Calc_NAT2_500_5_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 6454052 NAT2 5 BinMM 2001 3000
+bsub -e TIE_Calc_NAT2_500_5_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1006665 NAT2 5 BinMM 3001 4000
+bsub -e TIE_Calc_NAT2_500_5_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_500_5_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 7133575 NAT2 5 BinMM 4001 5000
+
+### ASAH1
+bsub -e TIE_Calc_ASAH1_500_20_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 4854526 ASAH1 20 IBS 1 1000
+bsub -e TIE_Calc_ASAH1_500_20_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2690141 ASAH1 20 IBS 1001 2000
+bsub -e TIE_Calc_ASAH1_500_20_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9674584 ASAH1 20 IBS 2001 3000
+bsub -e TIE_Calc_ASAH1_500_20_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 4748415 ASAH1 20 IBS 3001 4000
+bsub -e TIE_Calc_ASAH1_500_20_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9105536 ASAH1 20 IBS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_20_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 6510004 ASAH1 20 Incomp 1 1000
+bsub -e TIE_Calc_ASAH1_500_20_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5121961 ASAH1 20 Incomp 1001 2000
+bsub -e TIE_Calc_ASAH1_500_20_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1342093 ASAH1 20 Incomp 2001 3000
+bsub -e TIE_Calc_ASAH1_500_20_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 4923316 ASAH1 20 Incomp 3001 4000
+bsub -e TIE_Calc_ASAH1_500_20_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9359866 ASAH1 20 Incomp 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_20_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1244943 ASAH1 20 AMS 1 1000
+bsub -e TIE_Calc_ASAH1_500_20_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5753570 ASAH1 20 AMS 1001 2000
+bsub -e TIE_Calc_ASAH1_500_20_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5556062 ASAH1 20 AMS 2001 3000
+bsub -e TIE_Calc_ASAH1_500_20_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 7336048 ASAH1 20 AMS 3001 4000
+bsub -e TIE_Calc_ASAH1_500_20_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 630600 ASAH1 20 AMS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_20_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1835865 ASAH1 20 BinMM 1 1000
+bsub -e TIE_Calc_ASAH1_500_20_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5406380 ASAH1 20 BinMM 1001 2000
+bsub -e TIE_Calc_ASAH1_500_20_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1907771 ASAH1 20 BinMM 2001 3000
+bsub -e TIE_Calc_ASAH1_500_20_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1743937 ASAH1 20 BinMM 3001 4000
+bsub -e TIE_Calc_ASAH1_500_20_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_20_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5550789 ASAH1 20 BinMM 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_10_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 944444 ASAH1 10 IBS 1 1000
+bsub -e TIE_Calc_ASAH1_500_10_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2371691 ASAH1 10 IBS 1001 2000
+bsub -e TIE_Calc_ASAH1_500_10_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2111938 ASAH1 10 IBS 2001 3000
+bsub -e TIE_Calc_ASAH1_500_10_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2026326 ASAH1 10 IBS 3001 4000
+bsub -e TIE_Calc_ASAH1_500_10_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9286457 ASAH1 10 IBS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_10_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1509015 ASAH1 10 Incomp 1 1000
+bsub -e TIE_Calc_ASAH1_500_10_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5463746 ASAH1 10 Incomp 1001 2000
+bsub -e TIE_Calc_ASAH1_500_10_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9223421 ASAH1 10 Incomp 2001 3000
+bsub -e TIE_Calc_ASAH1_500_10_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2398671 ASAH1 10 Incomp 3001 4000
+bsub -e TIE_Calc_ASAH1_500_10_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1765940 ASAH1 10 Incomp 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_10_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1975951 ASAH1 10 AMS 1 1000
+bsub -e TIE_Calc_ASAH1_500_10_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2371624 ASAH1 10 AMS 1001 2000
+bsub -e TIE_Calc_ASAH1_500_10_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 8472333 ASAH1 10 AMS 2001 3000
+bsub -e TIE_Calc_ASAH1_500_10_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1218049 ASAH1 10 AMS 3001 4000
+bsub -e TIE_Calc_ASAH1_500_10_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2555205 ASAH1 10 AMS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_10_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9288547 ASAH1 10 BinMM 1 1000
+bsub -e TIE_Calc_ASAH1_500_10_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5923353 ASAH1 10 BinMM 1001 2000
+bsub -e TIE_Calc_ASAH1_500_10_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 8594878 ASAH1 10 BinMM 2001 3000
+bsub -e TIE_Calc_ASAH1_500_10_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2722471 ASAH1 10 BinMM 3001 4000
+bsub -e TIE_Calc_ASAH1_500_10_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_10_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 3363778 ASAH1 10 BinMM 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_5_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1816622 ASAH1 5 IBS 1 1000
+bsub -e TIE_Calc_ASAH1_500_5_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9976565 ASAH1 5 IBS 1001 2000
+bsub -e TIE_Calc_ASAH1_500_5_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 6189269 ASAH1 5 IBS 2001 3000
+bsub -e TIE_Calc_ASAH1_500_5_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1292399 ASAH1 5 IBS 3001 4000
+bsub -e TIE_Calc_ASAH1_500_5_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 2812944 ASAH1 5 IBS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_5_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 3922852 ASAH1 5 Incomp 1 1000
+bsub -e TIE_Calc_ASAH1_500_5_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 3185787 ASAH1 5 Incomp 1001 2000
+bsub -e TIE_Calc_ASAH1_500_5_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1303544 ASAH1 5 Incomp 2001 3000
+bsub -e TIE_Calc_ASAH1_500_5_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5683820 ASAH1 5 Incomp 3001 4000
+bsub -e TIE_Calc_ASAH1_500_5_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 7215611 ASAH1 5 Incomp 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_5_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1067890 ASAH1 5 AMS 1 1000
+bsub -e TIE_Calc_ASAH1_500_5_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 3391855 ASAH1 5 AMS 1001 2000
+bsub -e TIE_Calc_ASAH1_500_5_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5631212 ASAH1 5 AMS 2001 3000
+bsub -e TIE_Calc_ASAH1_500_5_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 8454523 ASAH1 5 AMS 3001 4000
+bsub -e TIE_Calc_ASAH1_500_5_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 9355904 ASAH1 5 AMS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_5_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 5677460 ASAH1 5 BinMM 1 1000
+bsub -e TIE_Calc_ASAH1_500_5_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 6883290 ASAH1 5 BinMM 1001 2000
+bsub -e TIE_Calc_ASAH1_500_5_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 6454052 ASAH1 5 BinMM 2001 3000
+bsub -e TIE_Calc_ASAH1_500_5_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 1006665 ASAH1 5 BinMM 3001 4000
+bsub -e TIE_Calc_ASAH1_500_5_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_500_5_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 500 7133575 ASAH1 5 BinMM 4001 5000
+ 
+### CHI3L2
+bsub -e TIE_Calc_CHI3L2_500_20_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4854526 CHI3L2 20 IBS 1 1000
+bsub -e TIE_Calc_CHI3L2_500_20_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2690141 CHI3L2 20 IBS 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_20_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9674584 CHI3L2 20 IBS 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_20_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4748415 CHI3L2 20 IBS 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_20_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9105536 CHI3L2 20 IBS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_20_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6510004 CHI3L2 20 Incomp 1 1000
+bsub -e TIE_Calc_CHI3L2_500_20_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5121961 CHI3L2 20 Incomp 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_20_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1342093 CHI3L2 20 Incomp 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_20_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4923316 CHI3L2 20 Incomp 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_20_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9359866 CHI3L2 20 Incomp 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_20_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1244943 CHI3L2 20 AMS 1 1000
+bsub -e TIE_Calc_CHI3L2_500_20_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5753570 CHI3L2 20 AMS 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_20_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5556062 CHI3L2 20 AMS 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_20_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7336048 CHI3L2 20 AMS 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_20_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 630600 CHI3L2 20 AMS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_20_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1835865 CHI3L2 20 BinMM 1 1000
+bsub -e TIE_Calc_CHI3L2_500_20_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5406380 CHI3L2 20 BinMM 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_20_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1907771 CHI3L2 20 BinMM 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_20_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1743937 CHI3L2 20 BinMM 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_20_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_20_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5550789 CHI3L2 20 BinMM 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_10_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 944444 CHI3L2 10 IBS 1 1000
+bsub -e TIE_Calc_CHI3L2_500_10_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2371691 CHI3L2 10 IBS 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_10_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2111938 CHI3L2 10 IBS 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_10_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2026326 CHI3L2 10 IBS 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_10_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9286457 CHI3L2 10 IBS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_10_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1509015 CHI3L2 10 Incomp 1 1000
+bsub -e TIE_Calc_CHI3L2_500_10_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5463746 CHI3L2 10 Incomp 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_10_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9223421 CHI3L2 10 Incomp 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_10_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2398671 CHI3L2 10 Incomp 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_10_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1765940 CHI3L2 10 Incomp 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_10_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1975951 CHI3L2 10 AMS 1 1000
+bsub -e TIE_Calc_CHI3L2_500_10_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2371624 CHI3L2 10 AMS 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_10_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8472333 CHI3L2 10 AMS 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_10_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1218049 CHI3L2 10 AMS 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_10_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2555205 CHI3L2 10 AMS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_10_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9288547 CHI3L2 10 BinMM 1 1000
+bsub -e TIE_Calc_CHI3L2_500_10_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5923353 CHI3L2 10 BinMM 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_10_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8594878 CHI3L2 10 BinMM 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_10_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2722471 CHI3L2 10 BinMM 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_10_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_10_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3363778 CHI3L2 10 BinMM 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_5_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1816622 CHI3L2 5 IBS 1 1000
+bsub -e TIE_Calc_CHI3L2_500_5_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9976565 CHI3L2 5 IBS 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_5_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6189269 CHI3L2 5 IBS 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_5_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1292399 CHI3L2 5 IBS 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_5_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2812944 CHI3L2 5 IBS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_5_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3922852 CHI3L2 5 Incomp 1 1000
+bsub -e TIE_Calc_CHI3L2_500_5_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3185787 CHI3L2 5 Incomp 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_5_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1303544 CHI3L2 5 Incomp 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_5_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5683820 CHI3L2 5 Incomp 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_5_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7215611 CHI3L2 5 Incomp 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_5_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1067890 CHI3L2 5 AMS 1 1000
+bsub -e TIE_Calc_CHI3L2_500_5_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3391855 CHI3L2 5 AMS 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_5_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5631212 CHI3L2 5 AMS 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_5_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8454523 CHI3L2 5 AMS 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_5_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9355904 CHI3L2 5 AMS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_5_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5677460 CHI3L2 5 BinMM 1 1000
+bsub -e TIE_Calc_CHI3L2_500_5_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6883290 CHI3L2 5 BinMM 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_5_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6454052 CHI3L2 5 BinMM 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_5_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1006665 CHI3L2 5 BinMM 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_5_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_500_5_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7133575 CHI3L2 5 BinMM 4001 5000
+
+### Continuous Outcome
+## NAT2
+bsub -e TIE_Calc_NAT2_500_IBS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_IBS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 8964094 NAT2 IBS 1 1000
+bsub -e TIE_Calc_NAT2_500_IBS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_IBS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6091049 NAT2 IBS 1001 2000
+bsub -e TIE_Calc_NAT2_500_IBS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_IBS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 3717397 NAT2 IBS 2001 3000
+bsub -e TIE_Calc_NAT2_500_IBS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_IBS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6031517 NAT2 IBS 3001 4000
+bsub -e TIE_Calc_NAT2_500_IBS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_IBS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2549059 NAT2 IBS 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_Incomp_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_Incomp_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6746743 NAT2 Incomp 1 1000
+bsub -e TIE_Calc_NAT2_500_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2391054 NAT2 Incomp 1001 2000
+bsub -e TIE_Calc_NAT2_500_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 766898 NAT2 Incomp 2001 3000
+bsub -e TIE_Calc_NAT2_500_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2555819 NAT2 Incomp 3001 4000
+bsub -e TIE_Calc_NAT2_500_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 4609355 NAT2 Incomp 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_AMS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_AMS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2999902 NAT2 AMS 1 1000
+bsub -e TIE_Calc_NAT2_500_AMS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_AMS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2210384 NAT2 AMS 1001 2000
+bsub -e TIE_Calc_NAT2_500_AMS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_AMS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2083501 NAT2 AMS 2001 3000
+bsub -e TIE_Calc_NAT2_500_AMS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_AMS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 9086030 NAT2 AMS 3001 4000
+bsub -e TIE_Calc_NAT2_500_AMS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_AMS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 5231108 NAT2 AMS 4001 5000
+
+bsub -e TIE_Calc_NAT2_500_BinMM_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_BinMM_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6050494 NAT2 BinMM 1 1000
+bsub -e TIE_Calc_NAT2_500_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 3235518 NAT2 BinMM 1001 2000
+bsub -e TIE_Calc_NAT2_500_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 3326766 NAT2 BinMM 2001 3000
+bsub -e TIE_Calc_NAT2_500_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 519760 NAT2 BinMM 3001 4000
+bsub -e TIE_Calc_NAT2_500_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_500_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2301678 NAT2 BinMM 4001 5000
+
+## ASAH1
+bsub -e TIE_Calc_ASAH1_500_IBS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_IBS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 8964094 ASAH1 IBS 1 1000
+bsub -e TIE_Calc_ASAH1_500_IBS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_IBS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6091049 ASAH1 IBS 1001 2000
+bsub -e TIE_Calc_ASAH1_500_IBS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_IBS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 3717397 ASAH1 IBS 2001 3000
+bsub -e TIE_Calc_ASAH1_500_IBS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_IBS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6031517 ASAH1 IBS 3001 4000
+bsub -e TIE_Calc_ASAH1_500_IBS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_IBS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2549059 ASAH1 IBS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_Incomp_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_Incomp_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6746743 ASAH1 Incomp 1 1000
+bsub -e TIE_Calc_ASAH1_500_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2391054 ASAH1 Incomp 1001 2000
+bsub -e TIE_Calc_ASAH1_500_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 766898 ASAH1 Incomp 2001 3000
+bsub -e TIE_Calc_ASAH1_500_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2555819 ASAH1 Incomp 3001 4000
+bsub -e TIE_Calc_ASAH1_500_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 4609355 ASAH1 Incomp 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_AMS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_AMS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2999902 ASAH1 AMS 1 1000
+bsub -e TIE_Calc_ASAH1_500_AMS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_AMS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2210384 ASAH1 AMS 1001 2000
+bsub -e TIE_Calc_ASAH1_500_AMS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_AMS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2083501 ASAH1 AMS 2001 3000
+bsub -e TIE_Calc_ASAH1_500_AMS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_AMS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 9086030 ASAH1 AMS 3001 4000
+bsub -e TIE_Calc_ASAH1_500_AMS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_AMS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 5231108 ASAH1 AMS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_500_BinMM_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_BinMM_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6050494 ASAH1 BinMM 1 1000
+bsub -e TIE_Calc_ASAH1_500_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 3235518 ASAH1 BinMM 1001 2000
+bsub -e TIE_Calc_ASAH1_500_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 3326766 ASAH1 BinMM 2001 3000
+bsub -e TIE_Calc_ASAH1_500_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 519760 ASAH1 BinMM 3001 4000
+bsub -e TIE_Calc_ASAH1_500_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_500_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2301678 ASAH1 BinMM 4001 5000
+
+## CHI3L2
+bsub -e TIE_Calc_CHI3L2_500_IBS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_IBS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 8964094 CHI3L2 IBS 1 1000
+bsub -e TIE_Calc_CHI3L2_500_IBS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_IBS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6091049 CHI3L2 IBS 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_IBS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_IBS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 3717397 CHI3L2 IBS 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_IBS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_IBS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6031517 CHI3L2 IBS 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_IBS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_IBS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2549059 CHI3L2 IBS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_Incomp_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_Incomp_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6746743 CHI3L2 Incomp 1 1000
+bsub -e TIE_Calc_CHI3L2_500_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2391054 CHI3L2 Incomp 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 766898 CHI3L2 Incomp 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2555819 CHI3L2 Incomp 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 4609355 CHI3L2 Incomp 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_AMS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_AMS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2999902 CHI3L2 AMS 1 1000
+bsub -e TIE_Calc_CHI3L2_500_AMS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_AMS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2210384 CHI3L2 AMS 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_AMS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_AMS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2083501 CHI3L2 AMS 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_AMS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_AMS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 9086030 CHI3L2 AMS 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_AMS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_AMS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 5231108 CHI3L2 AMS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_500_BinMM_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_BinMM_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 6050494 CHI3L2 BinMM 1 1000
+bsub -e TIE_Calc_CHI3L2_500_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 3235518 CHI3L2 BinMM 1001 2000
+bsub -e TIE_Calc_CHI3L2_500_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 3326766 CHI3L2 BinMM 2001 3000
+bsub -e TIE_Calc_CHI3L2_500_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 519760 CHI3L2 BinMM 3001 4000
+bsub -e TIE_Calc_CHI3L2_500_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_500_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 500 2301678 CHI3L2 BinMM 4001 5000
+
+##### Sample Size 1000
+## NAT2
+bsub -e TIE_Calc_NAT2_1000_20_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4854526 NAT2 20 IBS 1 1000
+bsub -e TIE_Calc_NAT2_1000_20_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2690141 NAT2 20 IBS 1001 2000
+bsub -e TIE_Calc_NAT2_1000_20_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9674584 NAT2 20 IBS 2001 3000
+bsub -e TIE_Calc_NAT2_1000_20_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4748415 NAT2 20 IBS 3001 4000
+bsub -e TIE_Calc_NAT2_1000_20_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9105536 NAT2 20 IBS 4001 5000
+
+bsub -e TIE_Calc_NAT2_1000_20_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6510004 NAT2 20 Incomp 1 1000
+bsub -e TIE_Calc_NAT2_1000_20_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5121961 NAT2 20 Incomp 1001 2000
+bsub -e TIE_Calc_NAT2_1000_20_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1342093 NAT2 20 Incomp 2001 3000
+bsub -e TIE_Calc_NAT2_1000_20_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4923316 NAT2 20 Incomp 3001 4000
+bsub -e TIE_Calc_NAT2_1000_20_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9359866 NAT2 20 Incomp 4001 5000
+
+bsub -e TIE_Calc_NAT2_1000_20_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1244943 NAT2 20 AMS 1 1000
+bsub -e TIE_Calc_NAT2_1000_20_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5753570 NAT2 20 AMS 1001 2000
+bsub -e TIE_Calc_NAT2_1000_20_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5556062 NAT2 20 AMS 2001 3000
+bsub -e TIE_Calc_NAT2_1000_20_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7336048 NAT2 20 AMS 3001 4000
+bsub -e TIE_Calc_NAT2_1000_20_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 630600 NAT2 20 AMS 4001 5000
+
+bsub -e TIE_Calc_NAT2_1000_20_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1835865 NAT2 20 BinMM 1 1000
+bsub -e TIE_Calc_NAT2_1000_20_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5406380 NAT2 20 BinMM 1001 2000
+bsub -e TIE_Calc_NAT2_1000_20_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1907771 NAT2 20 BinMM 2001 3000
+bsub -e TIE_Calc_NAT2_1000_20_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1743937 NAT2 20 BinMM 3001 4000
+bsub -e TIE_Calc_NAT2_1000_20_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_20_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5550789 NAT2 20 BinMM 4001 5000
+
+bsub -e TIE_Calc_NAT2_1000_10_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 944444 NAT2 10 IBS 1 1000
+bsub -e TIE_Calc_NAT2_1000_10_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2371691 NAT2 10 IBS 1001 2000
+bsub -e TIE_Calc_NAT2_1000_10_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2111938 NAT2 10 IBS 2001 3000
+bsub -e TIE_Calc_NAT2_1000_10_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2026326 NAT2 10 IBS 3001 4000
+bsub -e TIE_Calc_NAT2_1000_10_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9286457 NAT2 10 IBS 4001 5000
+
+bsub -e TIE_Calc_NAT2_1000_10_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1509015 NAT2 10 Incomp 1 1000
+bsub -e TIE_Calc_NAT2_1000_10_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5463746 NAT2 10 Incomp 1001 2000
+bsub -e TIE_Calc_NAT2_1000_10_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9223421 NAT2 10 Incomp 2001 3000
+bsub -e TIE_Calc_NAT2_1000_10_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2398671 NAT2 10 Incomp 3001 4000
+bsub -e TIE_Calc_NAT2_1000_10_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1765940 NAT2 10 Incomp 4001 5000
+
+bsub -e TIE_Calc_NAT2_1000_10_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1975951 NAT2 10 AMS 1 1000
+bsub -e TIE_Calc_NAT2_1000_10_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2371624 NAT2 10 AMS 1001 2000
+bsub -e TIE_Calc_NAT2_1000_10_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8472333 NAT2 10 AMS 2001 3000
+bsub -e TIE_Calc_NAT2_1000_10_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1218049 NAT2 10 AMS 3001 4000
+bsub -e TIE_Calc_NAT2_1000_10_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2555205 NAT2 10 AMS 4001 5000
+
+bsub -e TIE_Calc_NAT2_1000_10_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9288547 NAT2 10 BinMM 1 1000
+bsub -e TIE_Calc_NAT2_1000_10_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5923353 NAT2 10 BinMM 1001 2000
+bsub -e TIE_Calc_NAT2_1000_10_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8594878 NAT2 10 BinMM 2001 3000
+bsub -e TIE_Calc_NAT2_1000_10_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2722471 NAT2 10 BinMM 3001 4000
+bsub -e TIE_Calc_NAT2_1000_10_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_10_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3363778 NAT2 10 BinMM 4001 5000
+
+bsub -e TIE_Calc_NAT2_1000_5_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1816622 NAT2 5 IBS 1 1000
+bsub -e TIE_Calc_NAT2_1000_5_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9976565 NAT2 5 IBS 1001 2000
+bsub -e TIE_Calc_NAT2_1000_5_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6189269 NAT2 5 IBS 2001 3000
+bsub -e TIE_Calc_NAT2_1000_5_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1292399 NAT2 5 IBS 3001 4000
+bsub -e TIE_Calc_NAT2_1000_5_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2812944 NAT2 5 IBS 4001 5000
+
+bsub -e TIE_Calc_NAT2_1000_5_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3922852 NAT2 5 Incomp 1 1000
+bsub -e TIE_Calc_NAT2_1000_5_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3185787 NAT2 5 Incomp 1001 2000
+bsub -e TIE_Calc_NAT2_1000_5_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1303544 NAT2 5 Incomp 2001 3000
+bsub -e TIE_Calc_NAT2_1000_5_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5683820 NAT2 5 Incomp 3001 4000
+bsub -e TIE_Calc_NAT2_1000_5_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7215611 NAT2 5 Incomp 4001 5000
+
+bsub -e TIE_Calc_NAT2_1000_5_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1067890 NAT2 5 AMS 1 1000
+bsub -e TIE_Calc_NAT2_1000_5_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3391855 NAT2 5 AMS 1001 2000
+bsub -e TIE_Calc_NAT2_1000_5_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5631212 NAT2 5 AMS 2001 3000
+bsub -e TIE_Calc_NAT2_1000_5_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8454523 NAT2 5 AMS 3001 4000
+bsub -e TIE_Calc_NAT2_1000_5_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9355904 NAT2 5 AMS 4001 5000
+
+bsub -e TIE_Calc_NAT2_1000_5_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5677460 NAT2 5 BinMM 1 1000
+bsub -e TIE_Calc_NAT2_1000_5_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6883290 NAT2 5 BinMM 1001 2000
+bsub -e TIE_Calc_NAT2_1000_5_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6454052 NAT2 5 BinMM 2001 3000
+bsub -e TIE_Calc_NAT2_1000_5_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1006665 NAT2 5 BinMM 3001 4000
+bsub -e TIE_Calc_NAT2_1000_5_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_NAT2_1000_5_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7133575 NAT2 5 BinMM 4001 5000
+
+## ASAH1
+bsub -e TIE_Calc_ASAH1_1000_20_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4854526 ASAH1 20 IBS 1 1000
+bsub -e TIE_Calc_ASAH1_1000_20_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2690141 ASAH1 20 IBS 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_20_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9674584 ASAH1 20 IBS 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_20_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4748415 ASAH1 20 IBS 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_20_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9105536 ASAH1 20 IBS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_1000_20_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6510004 ASAH1 20 Incomp 1 1000
+bsub -e TIE_Calc_ASAH1_1000_20_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 45121961 ASAH1 20 Incomp 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_20_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1342093 ASAH1 20 Incomp 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_20_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4923316 ASAH1 20 Incomp 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_20_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 359866 ASAH1 20 Incomp 4001 5000
+
+bsub -e TIE_Calc_ASAH1_1000_20_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1244943 ASAH1 20 AMS 1 1000
+bsub -e TIE_Calc_ASAH1_1000_20_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5753570 ASAH1 20 AMS 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_20_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5556062 ASAH1 20 AMS 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_20_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7336048 ASAH1 20 AMS 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_20_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 630600 ASAH1 20 AMS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_1000_20_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1835865 ASAH1 20 BinMM 1 1000
+bsub -e TIE_Calc_ASAH1_1000_20_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5406380 ASAH1 20 BinMM 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_20_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1907771 ASAH1 20 BinMM 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_20_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1743937 ASAH1 20 BinMM 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_20_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_20_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5550789 ASAH1 20 BinMM 4001 5000
+
+bsub -e TIE_Calc_ASAH1_1000_10_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 944444 ASAH1 10 IBS 1 1000
+bsub -e TIE_Calc_ASAH1_1000_10_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2371691 ASAH1 10 IBS 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_10_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2111938 ASAH1 10 IBS 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_10_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2026326 ASAH1 10 IBS 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_10_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9286457 ASAH1 10 IBS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_1000_10_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1509015 ASAH1 10 Incomp 1 1000
+bsub -e TIE_Calc_ASAH1_1000_10_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5463746 ASAH1 10 Incomp 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_10_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9223421 ASAH1 10 Incomp 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_10_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2398671 ASAH1 10 Incomp 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_10_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1765940 ASAH1 10 Incomp 4001 5000
+
+bsub -e TIE_Calc_ASAH1_1000_10_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1975951 ASAH1 10 AMS 1 1000
+bsub -e TIE_Calc_ASAH1_1000_10_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2371624 ASAH1 10 AMS 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_10_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8472333 ASAH1 10 AMS 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_10_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1218049 ASAH1 10 AMS 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_10_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2555205 ASAH1 10 AMS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_1000_10_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9288547 ASAH1 10 BinMM 1 1000
+bsub -e TIE_Calc_ASAH1_1000_10_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5923353 ASAH1 10 BinMM 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_10_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8594878 ASAH1 10 BinMM 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_10_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2722471 ASAH1 10 BinMM 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_10_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_10_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3363778 ASAH1 10 BinMM 4001 5000
+
+bsub -e TIE_Calc_ASAH1_1000_5_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1816622 ASAH1 5 IBS 1 1000
+bsub -e TIE_Calc_ASAH1_1000_5_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9976565 ASAH1 5 IBS 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_5_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6189269 ASAH1 5 IBS 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_5_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1292399 ASAH1 5 IBS 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_5_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2812944 ASAH1 5 IBS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_1000_5_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3922852 ASAH1 5 Incomp 1 1000
+bsub -e TIE_Calc_ASAH1_1000_5_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3185787 ASAH1 5 Incomp 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_5_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1303544 ASAH1 5 Incomp 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_5_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5683820 ASAH1 5 Incomp 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_5_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7215611 ASAH1 5 Incomp 4001 5000
+
+bsub -e TIE_Calc_ASAH1_1000_5_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1067890 ASAH1 5 AMS 1 1000
+bsub -e TIE_Calc_ASAH1_1000_5_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3391855 ASAH1 5 AMS 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_5_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5631212 ASAH1 5 AMS 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_5_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8454523 ASAH1 5 AMS 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_5_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9355904 ASAH1 5 AMS 4001 5000
+
+bsub -e TIE_Calc_ASAH1_1000_5_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5677460 ASAH1 5 BinMM 1 1000
+bsub -e TIE_Calc_ASAH1_1000_5_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6883290 ASAH1 5 BinMM 1001 2000
+bsub -e TIE_Calc_ASAH1_1000_5_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6454052 ASAH1 5 BinMM 2001 3000
+bsub -e TIE_Calc_ASAH1_1000_5_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1006665 ASAH1 5 BinMM 3001 4000
+bsub -e TIE_Calc_ASAH1_1000_5_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_ASAH1_1000_5_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7133575 ASAH1 5 BinMM 4001 5000
+
+## CHI3L2
+bsub -e TIE_Calc_CHI3L2_1000_20_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 4854526 CHI3L2 20 IBS 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_20_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 2690141 CHI3L2 20 IBS 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_20_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 9674584 CHI3L2 20 IBS 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_20_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 4748415 CHI3L2 20 IBS 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_20_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 9105536 CHI3L2 20 IBS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_1000_20_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 6510004 CHI3L2 20 Incomp 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_20_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 5121961 CHI3L2 20 Incomp 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_20_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1342093 CHI3L2 20 Incomp 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_20_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 4923316 CHI3L2 20 Incomp 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_20_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 9359866 CHI3L2 20 Incomp 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_1000_20_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1244943 CHI3L2 20 AMS 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_20_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 5753570 CHI3L2 20 AMS 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_20_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 5556062 CHI3L2 20 AMS 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_20_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 7336048 CHI3L2 20 AMS 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_20_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 630600 CHI3L2 20 AMS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_1000_20_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1835865 CHI3L2 20 BinMM 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_20_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 5406380 CHI3L2 20 BinMM 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_20_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1907771 CHI3L2 20 BinMM 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_20_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1743937 CHI3L2 20 BinMM 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_20_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_20_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 5550789 CHI3L2 20 BinMM 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_1000_10_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 944444 CHI3L2 10 IBS 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_10_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 2371691 CHI3L2 10 IBS 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_10_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 2111938 CHI3L2 10 IBS 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_10_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 2026326 CHI3L2 10 IBS 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_10_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 9286457 CHI3L2 10 IBS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_1000_10_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1509015 CHI3L2 10 Incomp 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_10_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 5463746 CHI3L2 10 Incomp 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_10_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 9223421 CHI3L2 10 Incomp 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_10_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 2398671 CHI3L2 10 Incomp 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_10_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1765940 CHI3L2 10 Incomp 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_1000_10_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1975951 CHI3L2 10 AMS 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_10_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 2371624 CHI3L2 10 AMS 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_10_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 8472333 CHI3L2 10 AMS 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_10_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1218049 CHI3L2 10 AMS 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_10_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 2555205 CHI3L2 10 AMS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_1000_10_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 9288547 CHI3L2 10 BinMM 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_10_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 5923353 CHI3L2 10 BinMM 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_10_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 8594878 CHI3L2 10 BinMM 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_10_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 2722471 CHI3L2 10 BinMM 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_10_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_10_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 3363778 CHI3L2 10 BinMM 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_1000_5_IBS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_IBS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1816622 CHI3L2 5 IBS 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_5_IBS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_IBS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 9976565 CHI3L2 5 IBS 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_5_IBS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_IBS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 6189269 CHI3L2 5 IBS 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_5_IBS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_IBS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1292399 CHI3L2 5 IBS 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_5_IBS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_IBS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 2812944 CHI3L2 5 IBS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_1000_5_Incomp_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_Incomp_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 3922852 CHI3L2 5 Incomp 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_5_Incomp_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_Incomp_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 3185787 CHI3L2 5 Incomp 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_5_Incomp_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_Incomp_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1303544 CHI3L2 5 Incomp 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_5_Incomp_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_Incomp_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 5683820 CHI3L2 5 Incomp 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_5_Incomp_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_Incomp_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 7215611 CHI3L2 5 Incomp 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_1000_5_AMS_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_AMS_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1067890 CHI3L2 5 AMS 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_5_AMS_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_AMS_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 3391855 CHI3L2 5 AMS 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_5_AMS_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_AMS_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 5631212 CHI3L2 5 AMS 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_5_AMS_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_AMS_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 8454523 CHI3L2 5 AMS 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_5_AMS_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_AMS_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 9355904 CHI3L2 5 AMS 4001 5000
+
+bsub -e TIE_Calc_CHI3L2_1000_5_BinMM_1To1K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_BinMM_1To1K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 5677460 CHI3L2 5 BinMM 1 1000
+bsub -e TIE_Calc_CHI3L2_1000_5_BinMM_1001To2K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_BinMM_1001To2K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 6883290 CHI3L2 5 BinMM 1001 2000
+bsub -e TIE_Calc_CHI3L2_1000_5_BinMM_2001To3K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_BinMM_2001To3K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 6454052 CHI3L2 5 BinMM 2001 3000
+bsub -e TIE_Calc_CHI3L2_1000_5_BinMM_3001To4K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_BinMM_3001To4K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 1006665 CHI3L2 5 BinMM 3001 4000
+bsub -e TIE_Calc_CHI3L2_1000_5_BinMM_4001To5K_LinHypTest_GammaOnly.e -o TIE_Calc_CHI3L2_1000_5_BinMM_4001To5K_LinHypTest_GammaOnly.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 1000 7133575 CHI3L2 5 BinMM 4001 5000
+
+## Continuous Outcomes
+## NAT2
+bsub -e TIE_Calc_NAT2_1000_IBS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_IBS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 8964094 NAT2 IBS 1 1000 
+bsub -e TIE_Calc_NAT2_1000_IBS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_IBS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6091049 NAT2 IBS 1001 2000 
+bsub -e TIE_Calc_NAT2_1000_IBS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_IBS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 3717397 NAT2 IBS 2001 3000 
+bsub -e TIE_Calc_NAT2_1000_IBS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_IBS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6031517 NAT2 IBS 3001 4000 
+bsub -e TIE_Calc_NAT2_1000_IBS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_IBS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2549059 NAT2 IBS 4001 5000 
+
+bsub -e TIE_Calc_NAT2_1000_Incomp_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_Incomp_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6746743 NAT2 Incomp 1 1000 
+bsub -e TIE_Calc_NAT2_1000_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2391054 NAT2 Incomp 1001 2000 
+bsub -e TIE_Calc_NAT2_1000_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 766898 NAT2 Incomp 2001 3000 
+bsub -e TIE_Calc_NAT2_1000_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2555819 NAT2 Incomp 3001 4000 
+bsub -e TIE_Calc_NAT2_1000_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 4609355 NAT2 Incomp 4001 5000 
+
+bsub -e TIE_Calc_NAT2_1000_AMS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_AMS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2999902 NAT2 AMS 1 1000 
+bsub -e TIE_Calc_NAT2_1000_AMS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_AMS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2210384 NAT2 AMS 1001 2000 
+bsub -e TIE_Calc_NAT2_1000_AMS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_AMS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2083501 NAT2 AMS 2001 3000 
+bsub -e TIE_Calc_NAT2_1000_AMS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_AMS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 9086030 NAT2 AMS 3001 4000 
+bsub -e TIE_Calc_NAT2_1000_AMS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_AMS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 5231108 NAT2 AMS 4001 5000 
+
+bsub -e TIE_Calc_NAT2_1000_BinMM_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_BinMM_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6050494 NAT2 BinMM 1 1000 
+bsub -e TIE_Calc_NAT2_1000_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 3235518 NAT2 BinMM 1001 2000 
+bsub -e TIE_Calc_NAT2_1000_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 3326766 NAT2 BinMM 2001 3000 
+bsub -e TIE_Calc_NAT2_1000_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 519760 NAT2 BinMM 3001 4000 
+bsub -e TIE_Calc_NAT2_1000_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_NAT2_1000_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2301678 NAT2 BinMM 4001 5000 
+
+## ASAH1
+bsub -e TIE_Calc_ASAH1_1000_IBS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_IBS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 8964094 ASAH1 IBS 1 1000 
+bsub -e TIE_Calc_ASAH1_1000_IBS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_IBS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6091049 ASAH1 IBS 1001 2000 
+bsub -e TIE_Calc_ASAH1_1000_IBS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_IBS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 3717397 ASAH1 IBS 2001 3000 
+bsub -e TIE_Calc_ASAH1_1000_IBS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_IBS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6031517 ASAH1 IBS 3001 4000 
+bsub -e TIE_Calc_ASAH1_1000_IBS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_IBS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2549059 ASAH1 IBS 4001 5000 
+
+bsub -e TIE_Calc_ASAH1_1000_Incomp_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_Incomp_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6746743 ASAH1 Incomp 1 1000 
+bsub -e TIE_Calc_ASAH1_1000_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2391054 ASAH1 Incomp 1001 2000 
+bsub -e TIE_Calc_ASAH1_1000_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 766898 ASAH1 Incomp 2001 3000 
+bsub -e TIE_Calc_ASAH1_1000_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2555819 ASAH1 Incomp 3001 4000 
+bsub -e TIE_Calc_ASAH1_1000_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 4609355 ASAH1 Incomp 4001 5000 
+
+bsub -e TIE_Calc_ASAH1_1000_AMS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_AMS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2999902 ASAH1 AMS 1 1000 
+bsub -e TIE_Calc_ASAH1_1000_AMS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_AMS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2210384 ASAH1 AMS 1001 2000 
+bsub -e TIE_Calc_ASAH1_1000_AMS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_AMS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2083501 ASAH1 AMS 2001 3000 
+bsub -e TIE_Calc_ASAH1_1000_AMS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_AMS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 9086030 ASAH1 AMS 3001 4000 
+bsub -e TIE_Calc_ASAH1_1000_AMS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_AMS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 5231108 ASAH1 AMS 4001 5000 
+
+bsub -e TIE_Calc_ASAH1_1000_BinMM_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_BinMM_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6050494 ASAH1 BinMM 1 1000 
+bsub -e TIE_Calc_ASAH1_1000_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 3235518 ASAH1 BinMM 1001 2000 
+bsub -e TIE_Calc_ASAH1_1000_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 3326766 ASAH1 BinMM 2001 3000 
+bsub -e TIE_Calc_ASAH1_1000_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 519760 ASAH1 BinMM 3001 4000 
+bsub -e TIE_Calc_ASAH1_1000_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_ASAH1_1000_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2301678 ASAH1 BinMM 4001 5000 
+
+## CHI3L2
+bsub -e TIE_Calc_CHI3L2_1000_IBS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_IBS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 8964094 CHI3L2 IBS 1 1000 
+bsub -e TIE_Calc_CHI3L2_1000_IBS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_IBS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6091049 CHI3L2 IBS 1001 2000 
+bsub -e TIE_Calc_CHI3L2_1000_IBS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_IBS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 3717397 CHI3L2 IBS 2001 3000 
+bsub -e TIE_Calc_CHI3L2_1000_IBS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_IBS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6031517 CHI3L2 IBS 3001 4000 
+bsub -e TIE_Calc_CHI3L2_1000_IBS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_IBS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2549059 CHI3L2 IBS 4001 5000 
+
+bsub -e TIE_Calc_CHI3L2_1000_Incomp_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_Incomp_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6746743 CHI3L2 Incomp 1 1000 
+bsub -e TIE_Calc_CHI3L2_1000_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_Incomp_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2391054 CHI3L2 Incomp 1001 2000 
+bsub -e TIE_Calc_CHI3L2_1000_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_Incomp_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 766898 CHI3L2 Incomp 2001 3000 
+bsub -e TIE_Calc_CHI3L2_1000_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_Incomp_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2555819 CHI3L2 Incomp 3001 4000 
+bsub -e TIE_Calc_CHI3L2_1000_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_Incomp_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 4609355 CHI3L2 Incomp 4001 5000 
+
+bsub -e TIE_Calc_CHI3L2_1000_AMS_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_AMS_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2999902 CHI3L2 AMS 1 1000 
+bsub -e TIE_Calc_CHI3L2_1000_AMS_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_AMS_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2210384 CHI3L2 AMS 1001 2000 
+bsub -e TIE_Calc_CHI3L2_1000_AMS_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_AMS_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2083501 CHI3L2 AMS 2001 3000 
+bsub -e TIE_Calc_CHI3L2_1000_AMS_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_AMS_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 9086030 CHI3L2 AMS 3001 4000 
+bsub -e TIE_Calc_CHI3L2_1000_AMS_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_AMS_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 5231108 CHI3L2 AMS 4001 5000 
+
+bsub -e TIE_Calc_CHI3L2_1000_BinMM_1To1K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_BinMM_1To1K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 6050494 CHI3L2 BinMM 1 1000 
+bsub -e TIE_Calc_CHI3L2_1000_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_BinMM_1001To2K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 3235518 CHI3L2 BinMM 1001 2000 
+bsub -e TIE_Calc_CHI3L2_1000_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_BinMM_2001To3K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 3326766 CHI3L2 BinMM 2001 3000 
+bsub -e TIE_Calc_CHI3L2_1000_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_BinMM_3001To4K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 519760 CHI3L2 BinMM 3001 4000 
+bsub -e TIE_Calc_CHI3L2_1000_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.e -o TIE_Calc_CHI3L2_1000_BinMM_4001To5K_LinHypTest_GammaOnly_Cont.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_Cont_GammaOnly.sh 8 1000 2301678 CHI3L2 BinMM 4001 5000 

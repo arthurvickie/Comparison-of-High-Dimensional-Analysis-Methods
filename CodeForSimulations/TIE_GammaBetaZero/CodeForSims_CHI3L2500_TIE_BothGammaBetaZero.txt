@@ -1,0 +1,584 @@
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6702971 CHI3L2 5 IBS FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2894318 CHI3L2 5 IBS FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1006731 CHI3L2 5 IBS FALSE FALSE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cont_3001_4K.e -o CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5460422 CHI3L2 5 IBS FALSE FALSE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cont_4001_5K.e -o CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3760018 CHI3L2 5 IBS FALSE FALSE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5605219 CHI3L2 5 Incomp FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 630644 CHI3L2 5 Incomp FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6903128 CHI3L2 5 Incomp FALSE FALSE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cont_3001_4K.e -o CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5281881 CHI3L2 5 Incomp FALSE FALSE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cont_4001_5K.e -o CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 658249 CHI3L2 5 Incomp FALSE FALSE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6488880 CHI3L2 5 AMS FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6546667 CHI3L2 5 AMS FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7261660 CHI3L2 5 AMS FALSE FALSE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cont_3001_4K.e -o CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7727467 CHI3L2 5 AMS FALSE FALSE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cont_4001_5K.e -o CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8970724 CHI3L2 5 AMS FALSE FALSE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1745303 CHI3L2 5 BinMM FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8781168 CHI3L2 5 BinMM FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7439950 CHI3L2 5 BinMM FALSE FALSE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cont_3001_4K.e -o CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5006025 CHI3L2 5 BinMM FALSE FALSE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cont_4001_5K.e -o CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8335085 CHI3L2 5 BinMM FALSE FALSE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8633339 CHI3L2 5 IBS TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6905972 CHI3L2 5 IBS TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3019145 CHI3L2 5 IBS TRUE FALSE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cont_3001_4K.e -o CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8866672 CHI3L2 5 IBS TRUE FALSE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cont_4001_5K.e -o CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9672709 CHI3L2 5 IBS TRUE FALSE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6046790 CHI3L2 5 Incomp TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 434864 CHI3L2 5 Incomp TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7017724 CHI3L2 5 Incomp TRUE FALSE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cont_3001_4K.e -o CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8972105 CHI3L2 5 Incomp TRUE FALSE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cont_4001_5K.e -o CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8397957 CHI3L2 5 Incomp TRUE FALSE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9001242 CHI3L2 5 AMS TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3610519 CHI3L2 5 AMS TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 578736 CHI3L2 5 AMS TRUE FALSE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cont_3001_4K.e -o CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6690249 CHI3L2 5 AMS TRUE FALSE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cont_4001_5K.e -o CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8779811 CHI3L2 5 AMS TRUE FALSE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8748661 CHI3L2 5 BinMM TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9561196 CHI3L2 5 BinMM TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9799652 CHI3L2 5 BinMM TRUE FALSE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cont_3001_4K.e -o CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3395106 CHI3L2 5 BinMM TRUE FALSE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cont_4001_5K.e -o CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9598719 CHI3L2 5 BinMM TRUE FALSE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4196512 CHI3L2 5 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5482782 CHI3L2 5 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6214417 CHI3L2 5 IBS FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 989584 CHI3L2 5 IBS FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_5_IBS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3895146 CHI3L2 5 IBS FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3784473 CHI3L2 5 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2971602 CHI3L2 5 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4317085 CHI3L2 5 Incomp FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9785349 CHI3L2 5 Incomp FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_5_Incomp_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2104864 CHI3L2 5 Incomp FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 942005 CHI3L2 5 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3729402 CHI3L2 5 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6661600 CHI3L2 5 AMS FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2570044 CHI3L2 5 AMS FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_5_AMS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8743634 CHI3L2 5 AMS FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6623804 CHI3L2 5 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4428862 CHI3L2 5 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6080593 CHI3L2 5 BinMM FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1651899 CHI3L2 5 BinMM FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_5_BinMM_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8836868 CHI3L2 5 BinMM FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6033519 CHI3L2 5 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2337416 CHI3L2 5 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1340293 CHI3L2 5 IBS TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9440627 CHI3L2 5 IBS TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_5_IBS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 897137 CHI3L2 5 IBS TRUE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2412825 CHI3L2 5 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4398430 CHI3L2 5 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9207569 CHI3L2 5 Incomp TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5300540 CHI3L2 5 Incomp TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_5_Incomp_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3018445 CHI3L2 5 Incomp TRUE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1535512 CHI3L2 5 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8800123 CHI3L2 5 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1167627 CHI3L2 5 AMS TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1236677 CHI3L2 5 AMS TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_5_AMS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5090840 CHI3L2 5 AMS TRUE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3876204 CHI3L2 5 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9402791 CHI3L2 5 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5373474 CHI3L2 5 BinMM TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8762975 CHI3L2 5 BinMM TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_5_BinMM_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9093537 CHI3L2 5 BinMM TRUE TRUE 4001 5000
+######
+bsub -e CHI3L2_500_TIE_LHT_10_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_10_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5232446 CHI3L2 10 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_10_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_10_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9826308 CHI3L2 10 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_10_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_10_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2100666 CHI3L2 10 IBS FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_10_IBS_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_10_IBS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7838678 CHI3L2 10 IBS FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_10_IBS_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_10_IBS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6134725 CHI3L2 10 IBS FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_10_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_10_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 950246 CHI3L2 10 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_10_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_10_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9373379 CHI3L2 10 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_10_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_10_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9292174 CHI3L2 10 Incomp FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_10_Incomp_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_10_Incomp_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4610148 CHI3L2 10 Incomp FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_10_Incomp_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_10_Incomp_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6485708 CHI3L2 10 Incomp FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_10_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_10_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5600695 CHI3L2 10 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_10_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_10_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7339871 CHI3L2 10 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_10_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_10_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7210384 CHI3L2 10 AMS FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_10_AMS_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_10_AMS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1506463 CHI3L2 10 AMS FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_10_AMS_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_10_AMS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2267528 CHI3L2 10 AMS FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_10_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_10_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9950478 CHI3L2 10 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_10_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_10_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4822258 CHI3L2 10 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_10_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_10_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4887150 CHI3L2 10 BinMM FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_10_BinMM_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_10_BinMM_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4043326 CHI3L2 10 BinMM FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_10_BinMM_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_10_BinMM_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6966480 CHI3L2 10 BinMM FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_10_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_10_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6259330 CHI3L2 10 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_10_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_10_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6308162 CHI3L2 10 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_10_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_10_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 951471 CHI3L2 10 IBS TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_10_IBS_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_10_IBS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5365137 CHI3L2 10 IBS TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_10_IBS_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_10_IBS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2012295 CHI3L2 10 IBS TRUE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_10_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_10_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4255785 CHI3L2 10 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_10_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_10_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3395789 CHI3L2 10 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_10_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_10_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7107688 CHI3L2 10 Incomp TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_10_Incomp_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_10_Incomp_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 660014 CHI3L2 10 Incomp TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_10_Incomp_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_10_Incomp_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1105583 CHI3L2 10 Incomp TRUE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_10_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_10_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3504783 CHI3L2 10 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_10_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_10_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 623798 CHI3L2 10 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_10_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_10_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7833880 CHI3L2 10 AMS TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_10_AMS_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_10_AMS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1870298 CHI3L2 10 AMS TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_10_AMS_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_10_AMS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3858089 CHI3L2 10 AMS TRUE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_10_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_10_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5729372 CHI3L2 10 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_10_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_10_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1510068 CHI3L2 10 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_10_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_10_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2051840 CHI3L2 10 BinMM TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_10_BinMM_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_10_BinMM_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2930333 CHI3L2 10 BinMM TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_10_BinMM_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_10_BinMM_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7357890 CHI3L2 10 BinMM TRUE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_20_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_20_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3652864 CHI3L2 20 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_20_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_20_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6209657 CHI3L2 20 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_20_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_20_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7489615 CHI3L2 20 IBS FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_20_IBS_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_20_IBS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3043911 CHI3L2 20 IBS FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_20_IBS_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_20_IBS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 649223 CHI3L2 20 IBS FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_20_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_20_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9604415 CHI3L2 20 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_20_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_20_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2254663 CHI3L2 20 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_20_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_20_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4639281 CHI3L2 20 Incomp FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_20_Incomp_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_20_Incomp_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9434351 CHI3L2 20 Incomp FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_20_Incomp_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_20_Incomp_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5796439 CHI3L2 20 Incomp FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_20_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_20_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2895733 CHI3L2 20 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_20_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_20_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1447305 CHI3L2 20 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_20_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_20_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6997277 CHI3L2 20 AMS FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_20_AMS_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_20_AMS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1474315 CHI3L2 20 AMS FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_20_AMS_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_20_AMS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7683986 CHI3L2 20 AMS FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_20_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_20_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8728723 CHI3L2 20 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_20_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_20_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2025261 CHI3L2 20 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_20_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_20_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6346277 CHI3L2 20 BinMM FALSE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_20_BinMM_NoCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_20_BinMM_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8714149 CHI3L2 20 BinMM FALSE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_20_BinMM_NoCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_20_BinMM_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9975403 CHI3L2 20 BinMM FALSE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_20_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_20_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4868413 CHI3L2 20 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_20_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_20_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2838412 CHI3L2 20 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_20_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_20_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4864690 CHI3L2 20 IBS TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_20_IBS_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_20_IBS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7100711 CHI3L2 20 IBS TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_20_IBS_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_20_IBS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 140140 CHI3L2 20 IBS TRUE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_20_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_20_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8499207 CHI3L2 20 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_20_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_20_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 8162042 CHI3L2 20 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_20_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_20_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3862390 CHI3L2 20 Incomp TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_20_Incomp_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_20_Incomp_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 4790537 CHI3L2 20 Incomp TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_20_Incomp_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_20_Incomp_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 3679698 CHI3L2 20 Incomp TRUE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_20_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_20_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7827183 CHI3L2 20 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_20_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_20_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6216603 CHI3L2 20 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_20_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_20_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 5192018 CHI3L2 20 AMS TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_20_AMS_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_20_AMS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9180642 CHI3L2 20 AMS TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_20_AMS_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_20_AMS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 2660131 CHI3L2 20 AMS TRUE TRUE 4001 5000
+ 
+bsub -e CHI3L2_500_TIE_LHT_20_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_LHT_20_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 9774376 CHI3L2 20 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_LHT_20_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_LHT_20_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 6511563 CHI3L2 20 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_LHT_20_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_LHT_20_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 1869275 CHI3L2 20 BinMM TRUE TRUE 2001 3000
+bsub -e CHI3L2_500_TIE_LHT_20_BinMM_WCovs_Cat_3001_4K.e -o CHI3L2_500_TIE_LHT_20_BinMM_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 485661 CHI3L2 20 BinMM TRUE TRUE 3001 4000
+bsub -e CHI3L2_500_TIE_LHT_20_BinMM_WCovs_Cat_4001_5K.e -o CHI3L2_500_TIE_LHT_20_BinMM_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 1 500 7574040 CHI3L2 20 BinMM TRUE TRUE 4001 5000
+
+###############################################################################################################
+Desparsified Lasso
+###############################################################################################################
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6702971 CHI3L2 5 IBS FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 2894318 CHI3L2 5 IBS FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 1006731 CHI3L2 5 IBS FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 5605219 CHI3L2 5 Incomp FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 630644 CHI3L2 5 Incomp FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6903128 CHI3L2 5 Incomp FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6488880 CHI3L2 5 AMS FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6546667 CHI3L2 5 AMS FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 7261660 CHI3L2 5 AMS FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 1745303 CHI3L2 5 BinMM FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 8781168 CHI3L2 5 BinMM FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 7439950 CHI3L2 5 BinMM FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 8633339 CHI3L2 5 IBS TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6905972 CHI3L2 5 IBS TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 3019145 CHI3L2 5 IBS TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6046790 CHI3L2 5 Incomp TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 434864 CHI3L2 5 Incomp TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 7017724 CHI3L2 5 Incomp TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 9001242 CHI3L2 5 AMS TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 3610519 CHI3L2 5 AMS TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 578736 CHI3L2 5 AMS TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 8748661 CHI3L2 5 BinMM TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 9561196 CHI3L2 5 BinMM TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 9799652 CHI3L2 5 BinMM TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 4196512 CHI3L2 5 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 5482782 CHI3L2 5 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6214417 CHI3L2 5 IBS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 3784473 CHI3L2 5 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 2971602 CHI3L2 5 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 4317085 CHI3L2 5 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 942005 CHI3L2 5 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 3729402 CHI3L2 5 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6661600 CHI3L2 5 AMS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6623804 CHI3L2 5 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 4428862 CHI3L2 5 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6080593 CHI3L2 5 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6033519 CHI3L2 5 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 2337416 CHI3L2 5 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 1340293 CHI3L2 5 IBS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 2412825 CHI3L2 5 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 4398430 CHI3L2 5 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 9207569 CHI3L2 5 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 1535512 CHI3L2 5 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 8800123 CHI3L2 5 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 1167627 CHI3L2 5 AMS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 3876204 CHI3L2 5 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 9402791 CHI3L2 5 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_5_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 5373474 CHI3L2 5 BinMM TRUE TRUE 2001 3000
+#####
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_10_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 5232446 CHI3L2 10 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_10_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 9826308 CHI3L2 10 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_10_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 2100666 CHI3L2 10 IBS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 950246 CHI3L2 10 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 9373379 CHI3L2 10 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 9292174 CHI3L2 10 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_10_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 5600695 CHI3L2 10 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_10_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 7339871 CHI3L2 10 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_10_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 7210384 CHI3L2 10 AMS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 9950478 CHI3L2 10 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 4822258 CHI3L2 10 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 4887150 CHI3L2 10 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_10_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6259330 CHI3L2 10 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_10_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6308162 CHI3L2 10 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_10_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 951471 CHI3L2 10 IBS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_10_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 4255785 CHI3L2 10 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_10_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 3395789 CHI3L2 10 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_10_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 7107688 CHI3L2 10 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_10_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 3504783 CHI3L2 10 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_10_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 623798 CHI3L2 10 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_10_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 7833880 CHI3L2 10 AMS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_10_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 5729372 CHI3L2 10 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_10_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 1510068 CHI3L2 10 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_10_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_10_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 2051840 CHI3L2 10 BinMM TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_20_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 3652864 CHI3L2 20 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_20_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6209657 CHI3L2 20 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_20_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 7489615 CHI3L2 20 IBS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 9604415 CHI3L2 20 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 2254663 CHI3L2 20 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 4639281 CHI3L2 20 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_20_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 2895733 CHI3L2 20 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_20_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 1447305 CHI3L2 20 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_20_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6997277 CHI3L2 20 AMS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 8728723 CHI3L2 20 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 2025261 CHI3L2 20 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6346277 CHI3L2 20 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_20_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 4868413 CHI3L2 20 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_20_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 2838412 CHI3L2 20 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_20_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 4864690 CHI3L2 20 IBS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_20_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 8499207 CHI3L2 20 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_20_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 8162042 CHI3L2 20 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_20_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 3862390 CHI3L2 20 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_20_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 7827183 CHI3L2 20 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_20_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6216603 CHI3L2 20 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_20_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 5192018 CHI3L2 20 AMS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DesparseLasso_20_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 9774376 CHI3L2 20 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DesparseLasso_20_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 6511563 CHI3L2 20 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DesparseLasso_20_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DesparseLasso_20_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 1 500 1869275 CHI3L2 20 BinMM TRUE TRUE 2001 3000
+
+###############################################################################################################
+AISPU
+###############################################################################################################
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6702971 CHI3L2 5 IBS FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 2894318 CHI3L2 5 IBS FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 1006731 CHI3L2 5 IBS FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 630644 CHI3L2 5 Incomp FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6903128 CHI3L2 5 Incomp FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6488880 CHI3L2 5 Incomp FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 7261660 CHI3L2 5 AMS FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 1745303 CHI3L2 5 AMS FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 8781168 CHI3L2 5 AMS FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 8633339 CHI3L2 5 BinMM FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6905972 CHI3L2 5 BinMM FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 3019145 CHI3L2 5 BinMM FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 9001242 CHI3L2 5 IBS TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 3610519 CHI3L2 5 IBS TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 578736 CHI3L2 5 IBS TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 7017724 CHI3L2 5 Incomp TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 8748661 CHI3L2 5 Incomp TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 9561196 CHI3L2 5 Incomp TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 4196512 CHI3L2 5 AMS TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 3784473 CHI3L2 5 AMS TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 2971602 CHI3L2 5 AMS TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 5482782 CHI3L2 5 BinMM TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 942005 CHI3L2 5 BinMM TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 3729402 CHI3L2 5 BinMM TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6214417 CHI3L2 5 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6623804 CHI3L2 5 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 4428862 CHI3L2 5 IBS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6033519 CHI3L2 5 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 2337416 CHI3L2 5 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 1340293 CHI3L2 5 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 1535512 CHI3L2 5 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 8800123 CHI3L2 5 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 1167627 CHI3L2 5 AMS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 3876204 CHI3L2 5 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 9402791 CHI3L2 5 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 5373474 CHI3L2 5 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 9774376 CHI3L2 5 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6511563 CHI3L2 5 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 1869275 CHI3L2 5 IBS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 7827183 CHI3L2 5 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6216603 CHI3L2 5 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 5192018 CHI3L2 5 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 8499207 CHI3L2 5 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 8162042 CHI3L2 5 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 3862390 CHI3L2 5 AMS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 4868413 CHI3L2 5 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 2838412 CHI3L2 5 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_5_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 4864690 CHI3L2 5 BinMM TRUE TRUE 2001 3000
+####
+bsub -e CHI3L2_500_TIE_AISPU_10_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_10_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 5232446 CHI3L2 10 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_10_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_10_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 9826308 CHI3L2 10 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_10_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_10_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 2100666 CHI3L2 10 IBS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_10_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_10_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 950246 CHI3L2 10 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_10_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_10_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 9373379 CHI3L2 10 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_10_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_10_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 7339871 CHI3L2 10 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_10_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_10_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 5600695 CHI3L2 10 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_10_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_10_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 9950478 CHI3L2 10 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_10_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_10_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 4822258 CHI3L2 10 AMS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_10_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_10_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6259330 CHI3L2 10 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_10_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_10_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6308162 CHI3L2 10 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_10_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_10_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 951471 CHI3L2 10 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_10_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_10_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 3504783 CHI3L2 10 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_10_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_10_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 623798 CHI3L2 10 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_10_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_10_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 7833880 CHI3L2 10 IBS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_10_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_10_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 4255785 CHI3L2 10 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_10_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_10_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 3395789 CHI3L2 10 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_10_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_10_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 5729372 CHI3L2 10 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_10_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_10_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 3652864 CHI3L2 10 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_10_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_10_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6209657 CHI3L2 10 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_10_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_10_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 7489615 CHI3L2 10 AMS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_10_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_10_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 9604415 CHI3L2 10 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_10_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_10_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 2254663 CHI3L2 10 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_10_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_10_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 2895733 CHI3L2 10 BinMM TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_20_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_20_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 72298938 CHI3L2 20 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_20_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_20_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 77002333 CHI3L2 20 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_20_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_20_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 15159930 CHI3L2 20 IBS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_20_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_20_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 21272303 CHI3L2 20 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_20_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_20_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 38040999 CHI3L2 20 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_20_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_20_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 38492471 CHI3L2 20 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_20_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_20_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 50243182 CHI3L2 20 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_20_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_20_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 21861961 CHI3L2 20 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_20_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_20_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 22595229 CHI3L2 20 AMS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_20_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_20_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 7056923 CHI3L2 20 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_20_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_20_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 77073376 CHI3L2 20 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_20_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_20_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 18787703 CHI3L2 20 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_20_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_20_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 7465175 CHI3L2 20 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_20_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_20_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 61220491 CHI3L2 20 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_20_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_20_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 6990858 CHI3L2 20 IBS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_20_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_20_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 1950087 CHI3L2 20 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_20_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_20_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 59535397 CHI3L2 20 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_20_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_20_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 72117314 CHI3L2 20 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_20_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_20_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 70531602 CHI3L2 20 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_20_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_20_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 38217932 CHI3L2 20 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_20_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_20_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 92984595 CHI3L2 20 AMS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_AISPU_20_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_AISPU_20_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 3606814 CHI3L2 20 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_AISPU_20_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_AISPU_20_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 69000393 CHI3L2 20 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_AISPU_20_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_AISPU_20_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 1 500 60892199 CHI3L2 20 BinMM TRUE TRUE 2001 3000
+
+###############################################################################################################
+Decorrelated Score Test
+###############################################################################################################
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6702971 CHI3L2 5 IBS FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 2894318 CHI3L2 5 IBS FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 1006731 CHI3L2 5 IBS FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 5605219 CHI3L2 5 Incomp FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 630644 CHI3L2 5 Incomp FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6903128 CHI3L2 5 Incomp FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6488880 CHI3L2 5 AMS FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6546667 CHI3L2 5 AMS FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 7261660 CHI3L2 5 AMS FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 1745303 CHI3L2 5 BinMM FALSE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 8781168 CHI3L2 5 BinMM FALSE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 7439950 CHI3L2 5 BinMM FALSE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 8633339 CHI3L2 5 IBS TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6905972 CHI3L2 5 IBS TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 3019145 CHI3L2 5 IBS TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6046790 CHI3L2 5 Incomp TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 434864 CHI3L2 5 Incomp TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 7017724 CHI3L2 5 Incomp TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 9001242 CHI3L2 5 AMS TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 3610519 CHI3L2 5 AMS TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 578736 CHI3L2 5 AMS TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cont_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 8748661 CHI3L2 5 BinMM TRUE FALSE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cont_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 9561196 CHI3L2 5 BinMM TRUE FALSE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cont_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 9799652 CHI3L2 5 BinMM TRUE FALSE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 4196512 CHI3L2 5 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 5482782 CHI3L2 5 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6214417 CHI3L2 5 IBS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 3784473 CHI3L2 5 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 2971602 CHI3L2 5 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 4317085 CHI3L2 5 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 942005 CHI3L2 5 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 3729402 CHI3L2 5 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6661600 CHI3L2 5 AMS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6623804 CHI3L2 5 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 4428862 CHI3L2 5 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6080593 CHI3L2 5 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6033519 CHI3L2 5 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 2337416 CHI3L2 5 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 1340293 CHI3L2 5 IBS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 2412825 CHI3L2 5 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 4398430 CHI3L2 5 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 9207569 CHI3L2 5 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 1535512 CHI3L2 5 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 8800123 CHI3L2 5 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 1167627 CHI3L2 5 AMS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 3876204 CHI3L2 5 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 9402791 CHI3L2 5 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_5_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 5373474 CHI3L2 5 BinMM TRUE TRUE 2001 3000
+#####
+bsub -e CHI3L2_500_TIE_DecorrScore_10_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_10_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 5232446 CHI3L2 10 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_10_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 9826308 CHI3L2 10 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_10_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 2100666 CHI3L2 10 IBS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_10_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_10_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 950246 CHI3L2 10 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_10_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 9373379 CHI3L2 10 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_10_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 9292174 CHI3L2 10 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_10_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_10_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 5600695 CHI3L2 10 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_10_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 7339871 CHI3L2 10 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_10_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 7210384 CHI3L2 10 AMS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_10_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_10_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 9950478 CHI3L2 10 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_10_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 4822258 CHI3L2 10 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_10_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 4887150 CHI3L2 10 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_10_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_10_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6259330 CHI3L2 10 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_10_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6308162 CHI3L2 10 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_10_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 951471 CHI3L2 10 IBS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_10_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_10_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 4255785 CHI3L2 10 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_10_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 3395789 CHI3L2 10 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_10_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 7107688 CHI3L2 10 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_10_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_10_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 3504783 CHI3L2 10 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_10_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 623798 CHI3L2 10 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_10_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 7833880 CHI3L2 10 AMS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_10_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_10_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 5729372 CHI3L2 10 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_10_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 1510068 CHI3L2 10 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_10_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_10_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 2051840 CHI3L2 10 BinMM TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_20_IBS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_20_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 3652864 CHI3L2 20 IBS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_IBS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_20_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6209657 CHI3L2 20 IBS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_IBS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_20_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 7489615 CHI3L2 20 IBS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_20_Incomp_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_20_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 9604415 CHI3L2 20 Incomp FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_Incomp_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_20_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 2254663 CHI3L2 20 Incomp FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_Incomp_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_20_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 4639281 CHI3L2 20 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_20_AMS_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_20_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 2895733 CHI3L2 20 AMS FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_AMS_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_20_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 1447305 CHI3L2 20 AMS FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_AMS_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_20_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6997277 CHI3L2 20 AMS FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_20_BinMM_NoCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_20_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 8728723 CHI3L2 20 BinMM FALSE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_BinMM_NoCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_20_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 2025261 CHI3L2 20 BinMM FALSE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_BinMM_NoCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_20_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6346277 CHI3L2 20 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_20_IBS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_20_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 4868413 CHI3L2 20 IBS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_IBS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_20_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 2838412 CHI3L2 20 IBS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_IBS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_20_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 4864690 CHI3L2 20 IBS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_20_Incomp_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_20_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 8499207 CHI3L2 20 Incomp TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_Incomp_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_20_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 8162042 CHI3L2 20 Incomp TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_Incomp_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_20_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 3862390 CHI3L2 20 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_20_AMS_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_20_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 7827183 CHI3L2 20 AMS TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_AMS_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_20_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6216603 CHI3L2 20 AMS TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_AMS_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_20_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 5192018 CHI3L2 20 AMS TRUE TRUE 2001 3000
+ 
+bsub -e CHI3L2_500_TIE_DecorrScore_20_BinMM_WCovs_Cat_1_1K.e -o CHI3L2_500_TIE_DecorrScore_20_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 9774376 CHI3L2 20 BinMM TRUE TRUE 1 1000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_BinMM_WCovs_Cat_1001_2K.e -o CHI3L2_500_TIE_DecorrScore_20_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 6511563 CHI3L2 20 BinMM TRUE TRUE 1001 2000
+bsub -e CHI3L2_500_TIE_DecorrScore_20_BinMM_WCovs_Cat_2001_3K.e -o CHI3L2_500_TIE_DecorrScore_20_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 1 500 1869275 CHI3L2 20 BinMM TRUE TRUE 2001 3000

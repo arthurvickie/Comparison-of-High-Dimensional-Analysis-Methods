@@ -1,0 +1,584 @@
+bsub -e NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2630242 NAT2 5 IBS FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2370244 NAT2 5 IBS FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5297977 NAT2 5 IBS FALSE FALSE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cont_3001_4K.e -o NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7139290 NAT2 5 IBS FALSE FALSE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cont_4001_5K.e -o NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7159557 NAT2 5 IBS FALSE FALSE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4991912 NAT2 5 Incomp FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4008953 NAT2 5 Incomp FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6140875 NAT2 5 Incomp FALSE FALSE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cont_3001_4K.e -o NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7953375 NAT2 5 Incomp FALSE FALSE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cont_4001_5K.e -o NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1045740 NAT2 5 Incomp FALSE FALSE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3831405 NAT2 5 AMS FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9164008 NAT2 5 AMS FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7806606 NAT2 5 AMS FALSE FALSE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cont_3001_4K.e -o NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4394937 NAT2 5 AMS FALSE FALSE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cont_4001_5K.e -o NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8262140 NAT2 5 AMS FALSE FALSE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5801439 NAT2 5 BinMM FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9935825 NAT2 5 BinMM FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6714398 NAT2 5 BinMM FALSE FALSE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cont_3001_4K.e -o NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9119360 NAT2 5 BinMM FALSE FALSE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cont_4001_5K.e -o NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9059410 NAT2 5 BinMM FALSE FALSE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_IBS_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_LHT_5_IBS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1096096 NAT2 5 IBS TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_LHT_5_IBS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9183614 NAT2 5 IBS TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_LHT_5_IBS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7238115 NAT2 5 IBS TRUE FALSE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_WCovs_Cont_3001_4K.e -o NAT2_1000_TIE_LHT_5_IBS_WCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1733500 NAT2 5 IBS TRUE FALSE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_WCovs_Cont_4001_5K.e -o NAT2_1000_TIE_LHT_5_IBS_WCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8971276 NAT2 5 IBS TRUE FALSE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9292823 NAT2 5 Incomp TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1413569 NAT2 5 Incomp TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8913236 NAT2 5 Incomp TRUE FALSE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cont_3001_4K.e -o NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6335800 NAT2 5 Incomp TRUE FALSE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cont_4001_5K.e -o NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8233293 NAT2 5 Incomp TRUE FALSE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_AMS_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_LHT_5_AMS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8309526 NAT2 5 AMS TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_LHT_5_AMS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6910141 NAT2 5 AMS TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_LHT_5_AMS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3620745 NAT2 5 AMS TRUE FALSE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_WCovs_Cont_3001_4K.e -o NAT2_1000_TIE_LHT_5_AMS_WCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4224755 NAT2 5 AMS TRUE FALSE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_WCovs_Cont_4001_5K.e -o NAT2_1000_TIE_LHT_5_AMS_WCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7855796 NAT2 5 AMS TRUE FALSE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4780372 NAT2 5 BinMM TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2800593 NAT2 5 BinMM TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8835701 NAT2 5 BinMM TRUE FALSE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cont_3001_4K.e -o NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cont_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7473881 NAT2 5 BinMM TRUE FALSE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cont_4001_5K.e -o NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cont_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3001686 NAT2 5 BinMM TRUE FALSE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8021219 NAT2 5 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4425531 NAT2 5 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8729901 NAT2 5 IBS FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 459757 NAT2 5 IBS FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_5_IBS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 553172 NAT2 5 IBS FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9583720 NAT2 5 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4786099 NAT2 5 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3078933 NAT2 5 Incomp FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1896013 NAT2 5 Incomp FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_5_Incomp_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5654809 NAT2 5 Incomp FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2625195 NAT2 5 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1122352 NAT2 5 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7699660 NAT2 5 AMS FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9636014 NAT2 5 AMS FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_5_AMS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3997767 NAT2 5 AMS FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7160825 NAT2 5 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1594703 NAT2 5 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7171409 NAT2 5 BinMM FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 794012 NAT2 5 BinMM FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_5_BinMM_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4475354 NAT2 5 BinMM FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_IBS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_5_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3687723 NAT2 5 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_5_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8947387 NAT2 5 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_5_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5951367 NAT2 5 IBS TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_5_IBS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 896389 NAT2 5 IBS TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_IBS_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_5_IBS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9198465 NAT2 5 IBS TRUE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1251777 NAT2 5 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1071447 NAT2 5 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8074497 NAT2 5 Incomp TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7014107 NAT2 5 Incomp TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_5_Incomp_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8475124 NAT2 5 Incomp TRUE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_AMS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_5_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6066285 NAT2 5 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_5_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 868391 NAT2 5 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_5_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1503118 NAT2 5 AMS TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_5_AMS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 783731 NAT2 5 AMS TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_AMS_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_5_AMS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 868391 NAT2 5 AMS TRUE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1251777 NAT2 5 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1071447 NAT2 5 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8074497 NAT2 5 BinMM TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7014107 NAT2 5 BinMM TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_5_BinMM_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8475124 NAT2 5 BinMM TRUE TRUE 4001 5000
+
+#################################
+bsub -e NAT2_1000_TIE_LHT_10_IBS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_10_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9102210 NAT2 10 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_10_IBS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_10_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3127552 NAT2 10 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_10_IBS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_10_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3242177 NAT2 10 IBS FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_10_IBS_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_10_IBS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4448408 NAT2 10 IBS FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_10_IBS_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_10_IBS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8026197 NAT2 10 IBS FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_10_Incomp_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_10_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5330363 NAT2 10 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_10_Incomp_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_10_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8090354 NAT2 10 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_10_Incomp_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_10_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6820262 NAT2 10 Incomp FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_10_Incomp_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_10_Incomp_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6658882 NAT2 10 Incomp FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_10_Incomp_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_10_Incomp_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2586783 NAT2 10 Incomp FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_10_AMS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_10_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9763538 NAT2 10 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_10_AMS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_10_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2892993 NAT2 10 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_10_AMS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_10_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1115535 NAT2 10 AMS FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_10_AMS_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_10_AMS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5074557 NAT2 10 AMS FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_10_AMS_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_10_AMS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7500619 NAT2 10 AMS FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_10_BinMM_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_10_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1947247 NAT2 10 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_10_BinMM_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_10_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 321572 NAT2 10 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_10_BinMM_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_10_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 460928 NAT2 10 BinMM FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_10_BinMM_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_10_BinMM_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7432500 NAT2 10 BinMM FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_10_BinMM_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_10_BinMM_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8670519 NAT2 10 BinMM FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_10_IBS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_10_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1051834 NAT2 10 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_10_IBS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_10_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5773879 NAT2 10 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_10_IBS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_10_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1055975 NAT2 10 IBS TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_10_IBS_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_10_IBS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5486156 NAT2 10 IBS TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_10_IBS_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_10_IBS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1711927 NAT2 10 IBS TRUE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_10_Incomp_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_10_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 684637 NAT2 10 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_10_Incomp_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_10_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8996146 NAT2 10 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_10_Incomp_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_10_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5957714 NAT2 10 Incomp TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_10_Incomp_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_10_Incomp_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6576831 NAT2 10 Incomp TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_10_Incomp_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_10_Incomp_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6294800 NAT2 10 Incomp TRUE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_10_AMS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_10_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1668927 NAT2 10 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_10_AMS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_10_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9750092 NAT2 10 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_10_AMS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_10_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 273267 NAT2 10 AMS TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_10_AMS_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_10_AMS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5745078 NAT2 10 AMS TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_10_AMS_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_10_AMS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1657142 NAT2 10 AMS TRUE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_10_BinMM_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_10_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4834928 NAT2 10 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_10_BinMM_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_10_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6119845 NAT2 10 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_10_BinMM_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_10_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8931221 NAT2 10 BinMM TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_10_BinMM_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_10_BinMM_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5730699 NAT2 10 BinMM TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_10_BinMM_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_10_BinMM_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2039496 NAT2 10 BinMM TRUE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_20_IBS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_20_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4030568 NAT2 20 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_20_IBS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_20_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8552853 NAT2 20 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_20_IBS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_20_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8095963 NAT2 20 IBS FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_20_IBS_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_20_IBS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2119838 NAT2 20 IBS FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_20_IBS_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_20_IBS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2667867 NAT2 20 IBS FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_20_Incomp_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_20_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3427419 NAT2 20 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_20_Incomp_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_20_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4803431 NAT2 20 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_20_Incomp_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_20_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5151329 NAT2 20 Incomp FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_20_Incomp_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_20_Incomp_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5250788 NAT2 20 Incomp FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_20_Incomp_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_20_Incomp_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2632080 NAT2 20 Incomp FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_20_AMS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_20_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8646260 NAT2 20 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_20_AMS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_20_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3529135 NAT2 20 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_20_AMS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_20_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2676643 NAT2 20 AMS FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_20_AMS_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_20_AMS_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7013451 NAT2 20 AMS FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_20_AMS_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_20_AMS_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9744461 NAT2 20 AMS FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_20_BinMM_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_20_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4612742 NAT2 20 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_20_BinMM_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_20_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6986290 NAT2 20 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_20_BinMM_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_20_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2787186 NAT2 20 BinMM FALSE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_20_BinMM_NoCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_20_BinMM_NoCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8464269 NAT2 20 BinMM FALSE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_20_BinMM_NoCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_20_BinMM_NoCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6226322 NAT2 20 BinMM FALSE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_20_IBS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_20_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 508035 NAT2 20 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_20_IBS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_20_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 325374 NAT2 20 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_20_IBS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_20_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3746009 NAT2 20 IBS TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_20_IBS_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_20_IBS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3664669 NAT2 20 IBS TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_20_IBS_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_20_IBS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8383223 NAT2 20 IBS TRUE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_20_Incomp_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_20_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4782104 NAT2 20 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_20_Incomp_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_20_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9095161 NAT2 20 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_20_Incomp_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_20_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 1735946 NAT2 20 Incomp TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_20_Incomp_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_20_Incomp_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3994988 NAT2 20 Incomp TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_20_Incomp_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_20_Incomp_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 2292395 NAT2 20 Incomp TRUE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_20_AMS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_20_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 7998939 NAT2 20 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_20_AMS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_20_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 6125218 NAT2 20 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_20_AMS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_20_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 5915086 NAT2 20 AMS TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_20_AMS_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_20_AMS_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 8532441 NAT2 20 AMS TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_20_AMS_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_20_AMS_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4961942 NAT2 20 AMS TRUE TRUE 4001 5000
+ 
+bsub -e NAT2_1000_TIE_LHT_20_BinMM_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_LHT_20_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 3789725 NAT2 20 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_LHT_20_BinMM_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_LHT_20_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 9128258 NAT2 20 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_LHT_20_BinMM_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_LHT_20_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 4699440 NAT2 20 BinMM TRUE TRUE 2001 3000
+bsub -e NAT2_1000_TIE_LHT_20_BinMM_WCovs_Cat_3001_4K.e -o NAT2_1000_TIE_LHT_20_BinMM_WCovs_Cat_3001_4K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 273598 NAT2 20 BinMM TRUE TRUE 3001 4000
+bsub -e NAT2_1000_TIE_LHT_20_BinMM_WCovs_Cat_4001_5K.e -o NAT2_1000_TIE_LHT_20_BinMM_WCovs_Cat_4001_5K.o -n 4 sh CalculateStatAndPValues_TIE_LinHypTest_GammaOnly.sh 8 1000 448887 NAT2 20 BinMM TRUE TRUE 4001 5000
+
+###############################################################################################################
+Desparsified Lasso
+###############################################################################################################
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 2630242 NAT2 5 IBS FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 2370244 NAT2 5 IBS FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 5297977 NAT2 5 IBS FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 4991912 NAT2 5 Incomp FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 4008953 NAT2 5 Incomp FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 6140875 NAT2 5 Incomp FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 3831405 NAT2 5 AMS FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 9164008 NAT2 5 AMS FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 7806606 NAT2 5 AMS FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 5801439 NAT2 5 BinMM FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 9935825 NAT2 5 BinMM FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 6714398 NAT2 5 BinMM FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1096096 NAT2 5 IBS TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 9183614 NAT2 5 IBS TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 7238115 NAT2 5 IBS TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 9292823 NAT2 5 Incomp TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1413569 NAT2 5 Incomp TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8913236 NAT2 5 Incomp TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8309526 NAT2 5 AMS TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 6910141 NAT2 5 AMS TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 3620745 NAT2 5 AMS TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 4780372 NAT2 5 BinMM TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 2800593 NAT2 5 BinMM TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8835701 NAT2 5 BinMM TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8021219 NAT2 5 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 4425531 NAT2 5 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8729901 NAT2 5 IBS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 9583720 NAT2 5 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 4786099 NAT2 5 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 3078933 NAT2 5 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 2625195 NAT2 5 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1122352 NAT2 5 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 7699660 NAT2 5 AMS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 7160825 NAT2 5 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1594703 NAT2 5 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 7171409 NAT2 5 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 3687723 NAT2 5 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8947387 NAT2 5 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 5951367 NAT2 5 IBS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1251777 NAT2 5 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1071447 NAT2 5 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8074497 NAT2 5 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 6066285 NAT2 5 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 868391 NAT2 5 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1503118 NAT2 5 AMS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1251777 NAT2 5 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1071447 NAT2 5 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_5_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8074497 NAT2 5 BinMM TRUE TRUE 2001 3000
+#####
+bsub -e NAT2_1000_TIE_DesparseLasso_10_IBS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_10_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 9102210 NAT2 10 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_IBS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_10_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 3127552 NAT2 10 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_IBS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_10_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 3242177 NAT2 10 IBS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 5330363 NAT2 10 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8090354 NAT2 10 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_10_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 6820262 NAT2 10 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_10_AMS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_10_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 9763538 NAT2 10 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_AMS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_10_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 2892993 NAT2 10 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_AMS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_10_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1115535 NAT2 10 AMS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1947247 NAT2 10 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 321572 NAT2 10 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_10_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 460928 NAT2 10 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_10_IBS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_10_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1051834 NAT2 10 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_IBS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_10_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 5773879 NAT2 10 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_IBS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_10_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1055975 NAT2 10 IBS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_10_Incomp_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_10_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 684637 NAT2 10 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_Incomp_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_10_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8996146 NAT2 10 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_Incomp_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_10_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 5957714 NAT2 10 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_10_AMS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_10_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1668927 NAT2 10 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_AMS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_10_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 9750092 NAT2 10 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_AMS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_10_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 273267 NAT2 10 AMS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_10_BinMM_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_10_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 4834928 NAT2 10 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_BinMM_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_10_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 6119845 NAT2 10 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_10_BinMM_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_10_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8931221 NAT2 10 BinMM TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_20_IBS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_20_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 4030568 NAT2 20 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_IBS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_20_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8552853 NAT2 20 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_IBS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_20_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8095963 NAT2 20 IBS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 3427419 NAT2 20 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 4803431 NAT2 20 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_20_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 5151329 NAT2 20 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_20_AMS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_20_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 8646260 NAT2 20 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_AMS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_20_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 3529135 NAT2 20 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_AMS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_20_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 2676643 NAT2 20 AMS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 4612742 NAT2 20 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 6986290 NAT2 20 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_20_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 2787186 NAT2 20 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_20_IBS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_20_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 508035 NAT2 20 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_IBS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_20_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 325374 NAT2 20 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_IBS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_20_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 3746009 NAT2 20 IBS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_20_Incomp_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_20_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 4782104 NAT2 20 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_Incomp_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_20_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 9095161 NAT2 20 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_Incomp_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_20_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 1735946 NAT2 20 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_20_AMS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_20_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 7998939 NAT2 20 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_AMS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_20_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 6125218 NAT2 20 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_AMS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_20_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 5915086 NAT2 20 AMS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DesparseLasso_20_BinMM_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DesparseLasso_20_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 3789725 NAT2 20 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_BinMM_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DesparseLasso_20_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 9128258 NAT2 20 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DesparseLasso_20_BinMM_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DesparseLasso_20_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DesparseLasso_GammaOnly.sh 8 1000 4699440 NAT2 20 BinMM TRUE TRUE 2001 3000
+###############################################################################################################
+AISPU
+###############################################################################################################
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 5696388 NAT2 5 IBS FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cont_1001_2k.e -o NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cont_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 9750219 NAT2 5 IBS FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cont_2001_3k.e -o NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cont_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 4325986 NAT2 5 IBS FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cont_1_1k.e -o NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cont_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 4306664 NAT2 5 Incomp FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cont_1001_2k.e -o NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cont_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 2608303 NAT2 5 Incomp FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cont_2001_3k.e -o NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cont_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3070311 NAT2 5 Incomp FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cont_1_1k.e -o NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cont_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 478295 NAT2 5 AMS FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cont_1001_2k.e -o NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cont_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 5801356 NAT2 5 AMS FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cont_2001_3k.e -o NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cont_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 1236754 NAT2 5 AMS FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cont_1_1k.e -o NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cont_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 5709294 NAT2 5 BinMM FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cont_1001_2k.e -o NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cont_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 2643766 NAT2 5 BinMM FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cont_2001_3k.e -o NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cont_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 5462430 NAT2 5 BinMM FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cont_1_1k.e -o NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cont_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 6322136 NAT2 5 IBS TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cont_1001_2k.e -o NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cont_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 5274227 NAT2 5 IBS TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cont_2001_3k.e -o NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cont_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3028040 NAT2 5 IBS TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cont_1_1k.e -o NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cont_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 560636 NAT2 5 Incomp TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cont_1001_2k.e -o NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cont_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 2748481 NAT2 5 Incomp TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cont_2001_3k.e -o NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cont_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3419817 NAT2 5 Incomp TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cont_1_1k.e -o NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cont_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 9926544 NAT2 5 AMS TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cont_1001_2k.e -o NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cont_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 9652284 NAT2 5 AMS TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cont_2001_3k.e -o NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cont_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 6222292 NAT2 5 AMS TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cont_1_1k.e -o NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cont_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 5908431 NAT2 5 BinMM TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cont_1001_2k.e -o NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cont_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 9678710 NAT2 5 BinMM TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cont_2001_3k.e -o NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cont_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 665633 NAT2 5 BinMM TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 2964148 NAT2 5 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 830701 NAT2 5 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_5_IBS_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 2934755 NAT2 5 IBS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 1686287 NAT2 5 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3382093 NAT2 5 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_5_Incomp_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 7162612 NAT2 5 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3027579 NAT2 5 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 4076358 NAT2 5 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_5_AMS_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 7962504 NAT2 5 AMS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 8423588 NAT2 5 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 2483771 NAT2 5 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_5_BinMM_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 1891143 NAT2 5 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 4815350 NAT2 5 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 5653435 NAT2 5 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_5_IBS_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 9747489 NAT2 5 IBS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 2633526 NAT2 5 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 6271623 NAT2 5 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_5_Incomp_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3584345 NAT2 5 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 6066285 NAT2 5 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 868391 NAT2 5 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_5_AMS_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 1503118 NAT2 5 AMS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 7090973 NAT2 5 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 1071447 NAT2 5 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_5_BinMM_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 8074497 NAT2 5 BinMM TRUE TRUE 2001 3000
+#####
+bsub -e NAT2_1000_TIE_AISPU_10_IBS_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_10_IBS_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 7172795 NAT2 10 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_10_IBS_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_10_IBS_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 202885 NAT2 10 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_10_IBS_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_10_IBS_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 1347628 NAT2 10 IBS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_10_Incomp_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_10_Incomp_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3077081 NAT2 10 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_10_Incomp_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_10_Incomp_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 1145040 NAT2 10 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_10_Incomp_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_10_Incomp_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 8101974 NAT2 10 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_10_AMS_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_10_AMS_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 8461435 NAT2 10 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_10_AMS_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_10_AMS_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 2815668 NAT2 10 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_10_AMS_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_10_AMS_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 2025434 NAT2 10 AMS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_10_BinMM_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_10_BinMM_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 1230156 NAT2 10 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_10_BinMM_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_10_BinMM_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 609581 NAT2 10 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_10_BinMM_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_10_BinMM_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 8673223 NAT2 10 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_10_IBS_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_10_IBS_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3486910 NAT2 10 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_10_IBS_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_10_IBS_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 8649711 NAT2 10 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_10_IBS_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_10_IBS_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 6600467 NAT2 10 IBS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_10_Incomp_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_10_Incomp_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3849727 NAT2 10 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_10_Incomp_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_10_Incomp_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 20735 NAT2 10 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_10_Incomp_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_10_Incomp_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 698426 NAT2 10 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_10_AMS_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_10_AMS_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 9428128 NAT2 10 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_10_AMS_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_10_AMS_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 9774423 NAT2 10 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_10_AMS_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_10_AMS_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 8030777 NAT2 10 AMS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_10_BinMM_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_10_BinMM_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3453203 NAT2 10 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_10_BinMM_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_10_BinMM_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 2561085 NAT2 10 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_10_BinMM_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_10_BinMM_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 7331540 NAT2 10 BinMM TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_20_IBS_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_20_IBS_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 145100 NAT2 20 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_20_IBS_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_20_IBS_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 2886661 NAT2 20 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_20_IBS_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_20_IBS_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 7285558 NAT2 20 IBS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_20_Incomp_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_20_Incomp_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 9356268 NAT2 20 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_20_Incomp_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_20_Incomp_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 8287930 NAT2 20 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_20_Incomp_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_20_Incomp_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 6080330 NAT2 20 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_20_AMS_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_20_AMS_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3923548 NAT2 20 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_20_AMS_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_20_AMS_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 454946 NAT2 20 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_20_AMS_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_20_AMS_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 1025826 NAT2 20 AMS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_20_BinMM_NoCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_20_BinMM_NoCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 1352165 NAT2 20 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_20_BinMM_NoCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_20_BinMM_NoCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 4635902 NAT2 20 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_20_BinMM_NoCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_20_BinMM_NoCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3846071 NAT2 20 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_20_IBS_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_20_IBS_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 9329751 NAT2 20 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_20_IBS_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_20_IBS_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 1575117 NAT2 20 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_20_IBS_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_20_IBS_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 4076459 NAT2 20 IBS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_20_Incomp_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_20_Incomp_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 8823 NAT2 20 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_20_Incomp_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_20_Incomp_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 7395228 NAT2 20 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_20_Incomp_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_20_Incomp_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 6011800 NAT2 20 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_20_AMS_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_20_AMS_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 264712 NAT2 20 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_20_AMS_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_20_AMS_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 3249545 NAT2 20 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_20_AMS_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_20_AMS_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 738784 NAT2 20 AMS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_AISPU_20_BinMM_WCovs_Cat_1_1k.e -o NAT2_1000_TIE_AISPU_20_BinMM_WCovs_Cat_1_1k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 5690056 NAT2 20 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_AISPU_20_BinMM_WCovs_Cat_1001_2k.e -o NAT2_1000_TIE_AISPU_20_BinMM_WCovs_Cat_1001_2k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 6832196 NAT2 20 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_AISPU_20_BinMM_WCovs_Cat_2001_3k.e -o NAT2_1000_TIE_AISPU_20_BinMM_WCovs_Cat_2001_3k.o -n 4 sh CalculateStatAndPValues_TIE_AISPU_GammaOnly.sh 8 1000 5622512 NAT2 20 BinMM TRUE TRUE 2001 3000
+
+###############################################################################################################
+Decorrelated Score
+###############################################################################################################
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 2630242 NAT2 5 IBS FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 2370244 NAT2 5 IBS FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 5297977 NAT2 5 IBS FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 4991912 NAT2 5 Incomp FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 4008953 NAT2 5 Incomp FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 6140875 NAT2 5 Incomp FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 3831405 NAT2 5 AMS FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 9164008 NAT2 5 AMS FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 7806606 NAT2 5 AMS FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cont_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 5801439 NAT2 5 BinMM FALSE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 9935825 NAT2 5 BinMM FALSE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 6714398 NAT2 5 BinMM FALSE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1096096 NAT2 5 IBS TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 9183614 NAT2 5 IBS TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 7238115 NAT2 5 IBS TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 9292823 NAT2 5 Incomp TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1413569 NAT2 5 Incomp TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8913236 NAT2 5 Incomp TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8309526 NAT2 5 AMS TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 6910141 NAT2 5 AMS TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 3620745 NAT2 5 AMS TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cont_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cont_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 4780372 NAT2 5 BinMM TRUE FALSE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cont_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cont_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 2800593 NAT2 5 BinMM TRUE FALSE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cont_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cont_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8835701 NAT2 5 BinMM TRUE FALSE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8021219 NAT2 5 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 4425531 NAT2 5 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8729901 NAT2 5 IBS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 9583720 NAT2 5 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 4786099 NAT2 5 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 3078933 NAT2 5 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 2625195 NAT2 5 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1122352 NAT2 5 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 7699660 NAT2 5 AMS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 7160825 NAT2 5 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1594703 NAT2 5 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 7171409 NAT2 5 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 3687723 NAT2 5 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8947387 NAT2 5 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 5951367 NAT2 5 IBS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1251777 NAT2 5 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1071447 NAT2 5 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8074497 NAT2 5 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 6066285 NAT2 5 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 868391 NAT2 5 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1503118 NAT2 5 AMS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1251777 NAT2 5 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1071447 NAT2 5 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_5_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8074497 NAT2 5 BinMM TRUE TRUE 2001 3000
+#####
+bsub -e NAT2_1000_TIE_DecorrScore_10_IBS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_10_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 9102210 NAT2 10 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_10_IBS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_10_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 3127552 NAT2 10 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_10_IBS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_10_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 3242177 NAT2 10 IBS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_10_Incomp_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_10_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 5330363 NAT2 10 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_10_Incomp_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_10_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8090354 NAT2 10 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_10_Incomp_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_10_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 6820262 NAT2 10 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_10_AMS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_10_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 9763538 NAT2 10 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_10_AMS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_10_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 2892993 NAT2 10 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_10_AMS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_10_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1115535 NAT2 10 AMS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_10_BinMM_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_10_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1947247 NAT2 10 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_10_BinMM_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_10_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 321572 NAT2 10 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_10_BinMM_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_10_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 460928 NAT2 10 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_10_IBS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_10_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1051834 NAT2 10 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_10_IBS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_10_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 5773879 NAT2 10 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_10_IBS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_10_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1055975 NAT2 10 IBS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_10_Incomp_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_10_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 684637 NAT2 10 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_10_Incomp_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_10_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8996146 NAT2 10 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_10_Incomp_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_10_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 5957714 NAT2 10 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_10_AMS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_10_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1668927 NAT2 10 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_10_AMS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_10_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 9750092 NAT2 10 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_10_AMS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_10_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 273267 NAT2 10 AMS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_10_BinMM_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_10_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 4834928 NAT2 10 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_10_BinMM_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_10_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 6119845 NAT2 10 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_10_BinMM_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_10_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8931221 NAT2 10 BinMM TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_20_IBS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_20_IBS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 4030568 NAT2 20 IBS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_20_IBS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_20_IBS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8552853 NAT2 20 IBS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_20_IBS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_20_IBS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8095963 NAT2 20 IBS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_20_Incomp_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_20_Incomp_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 3427419 NAT2 20 Incomp FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_20_Incomp_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_20_Incomp_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 4803431 NAT2 20 Incomp FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_20_Incomp_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_20_Incomp_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 5151329 NAT2 20 Incomp FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_20_AMS_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_20_AMS_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 8646260 NAT2 20 AMS FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_20_AMS_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_20_AMS_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 3529135 NAT2 20 AMS FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_20_AMS_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_20_AMS_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 2676643 NAT2 20 AMS FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_20_BinMM_NoCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_20_BinMM_NoCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 4612742 NAT2 20 BinMM FALSE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_20_BinMM_NoCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_20_BinMM_NoCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 6986290 NAT2 20 BinMM FALSE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_20_BinMM_NoCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_20_BinMM_NoCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 2787186 NAT2 20 BinMM FALSE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_20_IBS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_20_IBS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 508035 NAT2 20 IBS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_20_IBS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_20_IBS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 325374 NAT2 20 IBS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_20_IBS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_20_IBS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 3746009 NAT2 20 IBS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_20_Incomp_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_20_Incomp_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 4782104 NAT2 20 Incomp TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_20_Incomp_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_20_Incomp_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 9095161 NAT2 20 Incomp TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_20_Incomp_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_20_Incomp_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 1735946 NAT2 20 Incomp TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_20_AMS_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_20_AMS_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 7998939 NAT2 20 AMS TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_20_AMS_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_20_AMS_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 6125218 NAT2 20 AMS TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_20_AMS_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_20_AMS_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 5915086 NAT2 20 AMS TRUE TRUE 2001 3000
+ 
+bsub -e NAT2_1000_TIE_DecorrScore_20_BinMM_WCovs_Cat_1_1K.e -o NAT2_1000_TIE_DecorrScore_20_BinMM_WCovs_Cat_1_1K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 3789725 NAT2 20 BinMM TRUE TRUE 1 1000
+bsub -e NAT2_1000_TIE_DecorrScore_20_BinMM_WCovs_Cat_1001_2K.e -o NAT2_1000_TIE_DecorrScore_20_BinMM_WCovs_Cat_1001_2K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 9128258 NAT2 20 BinMM TRUE TRUE 1001 2000
+bsub -e NAT2_1000_TIE_DecorrScore_20_BinMM_WCovs_Cat_2001_3K.e -o NAT2_1000_TIE_DecorrScore_20_BinMM_WCovs_Cat_2001_3K.o -n 4 sh CalculateStatAndPValues_TIE_DecorrScore_GammaOnly.sh 8 1000 4699440 NAT2 20 BinMM TRUE TRUE 2001 3000

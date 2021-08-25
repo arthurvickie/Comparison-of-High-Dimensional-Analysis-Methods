@@ -1,0 +1,377 @@
+bsub -e NAT2_500_20_IBS_small_5_TRUE.e -o NAT2_500_20_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9248502 NAT2 20 IBS 1 3000 small 5 TRUE
+bsub -e NAT2_500_20_IBS_small_5_FALSE.e -o NAT2_500_20_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6314887 NAT2 20 IBS 1 3000 small 5 FALSE
+bsub -e NAT2_500_20_IBS_small_15_TRUE.e -o NAT2_500_20_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3403333 NAT2 20 IBS 1 3000 small 15 TRUE
+bsub -e NAT2_500_20_IBS_small_15_FALSE.e -o NAT2_500_20_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 498883 NAT2 20 IBS 1 3000 small 15 FALSE
+bsub -e NAT2_500_20_IBS_small_12_TRUE.e -o NAT2_500_20_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 7489612 NAT2 20 IBS 1 3000 small 25 TRUE
+bsub -e NAT2_500_20_IBS_small_12_FALSE.e -o NAT2_500_20_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 661448 NAT2 20 IBS 1 3000 small 25 FALSE
+ 
+bsub -e NAT2_500_10_IBS_small_5_TRUE.e -o NAT2_500_10_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 1557041 NAT2 10 IBS 1 3000 small 5 TRUE
+bsub -e NAT2_500_10_IBS_small_5_FALSE.e -o NAT2_500_10_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6703463 NAT2 10 IBS 1 3000 small 5 FALSE
+bsub -e NAT2_500_10_IBS_small_15_TRUE.e -o NAT2_500_10_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6086439 NAT2 10 IBS 1 3000 small 15 TRUE
+bsub -e NAT2_500_10_IBS_small_15_FALSE.e -o NAT2_500_10_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 387811 NAT2 10 IBS 1 3000 small 15 FALSE
+bsub -e NAT2_500_10_IBS_small_12_TRUE.e -o NAT2_500_10_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5672731 NAT2 10 IBS 1 3000 small 25 TRUE
+bsub -e NAT2_500_10_IBS_small_12_FALSE.e -o NAT2_500_10_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 4749418 NAT2 10 IBS 1 3000 small 25 FALSE
+ 
+bsub -e NAT2_500_5_IBS_small_5_TRUE.e -o NAT2_500_5_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 4760355 NAT2 5 IBS 1 3000 small 5 TRUE
+bsub -e NAT2_500_5_IBS_small_5_FALSE.e -o NAT2_500_5_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 1948564 NAT2 5 IBS 1 3000 small 5 FALSE
+bsub -e NAT2_500_5_IBS_small_15_TRUE.e -o NAT2_500_5_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 7923320 NAT2 5 IBS 1 3000 small 15 TRUE
+bsub -e NAT2_500_5_IBS_small_15_FALSE.e -o NAT2_500_5_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5593575 NAT2 5 IBS 1 3000 small 15 FALSE
+bsub -e NAT2_500_5_IBS_small_12_TRUE.e -o NAT2_500_5_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5556944 NAT2 5 IBS 1 3000 small 25 TRUE
+bsub -e NAT2_500_5_IBS_small_12_FALSE.e -o NAT2_500_5_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 1577848 NAT2 5 IBS 1 3000 small 25 FALSE
+
+bsub -e NAT2_500_20_IBS_medium_5_TRUE.e -o NAT2_500_20_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3061468 NAT2 20 IBS 1 3000 medium 5 TRUE
+bsub -e NAT2_500_20_IBS_medium_5_FALSE.e -o NAT2_500_20_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 60692 NAT2 20 IBS 1 3000 medium 5 FALSE
+bsub -e NAT2_500_20_IBS_medium_15_TRUE.e -o NAT2_500_20_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5044663 NAT2 20 IBS 1 3000 medium 15 TRUE
+bsub -e NAT2_500_20_IBS_medium_15_FALSE.e -o NAT2_500_20_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9672852 NAT2 20 IBS 1 3000 medium 15 FALSE
+bsub -e NAT2_500_20_IBS_medium_12_TRUE.e -o NAT2_500_20_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6436764 NAT2 20 IBS 1 3000 medium 25 TRUE
+bsub -e NAT2_500_20_IBS_medium_12_FALSE.e -o NAT2_500_20_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 8527527 NAT2 20 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e NAT2_500_10_IBS_medium_5_TRUE.e -o NAT2_500_10_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 2016070 NAT2 10 IBS 1 3000 medium 5 TRUE
+bsub -e NAT2_500_10_IBS_medium_5_FALSE.e -o NAT2_500_10_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 8153084 NAT2 10 IBS 1 3000 medium 5 FALSE
+bsub -e NAT2_500_10_IBS_medium_15_TRUE.e -o NAT2_500_10_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5325053 NAT2 10 IBS 1 3000 medium 15 TRUE
+bsub -e NAT2_500_10_IBS_medium_15_FALSE.e -o NAT2_500_10_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 943218 NAT2 10 IBS 1 3000 medium 15 FALSE
+bsub -e NAT2_500_10_IBS_medium_12_TRUE.e -o NAT2_500_10_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9916965 NAT2 10 IBS 1 3000 medium 25 TRUE
+bsub -e NAT2_500_10_IBS_medium_12_FALSE.e -o NAT2_500_10_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3994499 NAT2 10 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e NAT2_500_5_IBS_medium_5_TRUE.e -o NAT2_500_5_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 4968125 NAT2 5 IBS 1 3000 medium 5 TRUE
+bsub -e NAT2_500_5_IBS_medium_5_FALSE.e -o NAT2_500_5_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 484972 NAT2 5 IBS 1 3000 medium 5 FALSE
+bsub -e NAT2_500_5_IBS_medium_15_TRUE.e -o NAT2_500_5_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6769110 NAT2 5 IBS 1 3000 medium 15 TRUE
+bsub -e NAT2_500_5_IBS_medium_15_FALSE.e -o NAT2_500_5_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 1287560 NAT2 5 IBS 1 3000 medium 15 FALSE
+bsub -e NAT2_500_5_IBS_medium_12_TRUE.e -o NAT2_500_5_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 4061419 NAT2 5 IBS 1 3000 medium 25 TRUE
+bsub -e NAT2_500_5_IBS_medium_12_FALSE.e -o NAT2_500_5_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3236856 NAT2 5 IBS 1 3000 medium 25 FALSE
+
+bsub -e NAT2_500_20_IBS_large_5_TRUE.e -o NAT2_500_20_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 8522403 NAT2 20 IBS 1 3000 large 5 TRUE
+bsub -e NAT2_500_20_IBS_large_5_FALSE.e -o NAT2_500_20_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 1706814 NAT2 20 IBS 1 3000 large 5 FALSE
+bsub -e NAT2_500_20_IBS_large_15_TRUE.e -o NAT2_500_20_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 4881101 NAT2 20 IBS 1 3000 large 15 TRUE
+bsub -e NAT2_500_20_IBS_large_15_FALSE.e -o NAT2_500_20_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 2879893 NAT2 20 IBS 1 3000 large 15 FALSE
+bsub -e NAT2_500_20_IBS_large_12_TRUE.e -o NAT2_500_20_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6505542 NAT2 20 IBS 1 3000 large 25 TRUE
+bsub -e NAT2_500_20_IBS_large_12_FALSE.e -o NAT2_500_20_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 8659135 NAT2 20 IBS 1 3000 large 25 FALSE
+ 
+bsub -e NAT2_500_10_IBS_large_5_TRUE.e -o NAT2_500_10_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6487543 NAT2 10 IBS 1 3000 large 5 TRUE
+bsub -e NAT2_500_10_IBS_large_5_FALSE.e -o NAT2_500_10_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 2361026 NAT2 10 IBS 1 3000 large 5 FALSE
+bsub -e NAT2_500_10_IBS_large_15_TRUE.e -o NAT2_500_10_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 4520025 NAT2 10 IBS 1 3000 large 15 TRUE
+bsub -e NAT2_500_10_IBS_large_15_FALSE.e -o NAT2_500_10_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5432913 NAT2 10 IBS 1 3000 large 15 FALSE
+bsub -e NAT2_500_10_IBS_large_12_TRUE.e -o NAT2_500_10_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 2773532 NAT2 10 IBS 1 3000 large 25 TRUE
+bsub -e NAT2_500_10_IBS_large_12_FALSE.e -o NAT2_500_10_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 2687277 NAT2 10 IBS 1 3000 large 25 FALSE
+ 
+bsub -e NAT2_500_5_IBS_large_5_TRUE.e -o NAT2_500_5_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 4088463 NAT2 5 IBS 1 3000 large 5 TRUE
+bsub -e NAT2_500_5_IBS_large_5_FALSE.e -o NAT2_500_5_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6828250 NAT2 5 IBS 1 3000 large 5 FALSE
+bsub -e NAT2_500_5_IBS_large_15_TRUE.e -o NAT2_500_5_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 4232816 NAT2 5 IBS 1 3000 large 15 TRUE
+bsub -e NAT2_500_5_IBS_large_15_FALSE.e -o NAT2_500_5_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 4989145 NAT2 5 IBS 1 3000 large 15 FALSE
+bsub -e NAT2_500_5_IBS_large_12_TRUE.e -o NAT2_500_5_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5092935 NAT2 5 IBS 1 3000 large 25 TRUE
+bsub -e NAT2_500_5_IBS_large_12_FALSE.e -o NAT2_500_5_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6782796 NAT2 5 IBS 1 3000 large 25 FALSE
+####################
+bsub -e NAT2_1000_20_IBS_small_5_TRUE.e -o NAT2_1000_20_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 2850055 NAT2 20 IBS 1 3000 small 5 TRUE
+bsub -e NAT2_1000_20_IBS_small_5_FALSE.e -o NAT2_1000_20_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 2224157 NAT2 20 IBS 1 3000 small 5 FALSE
+bsub -e NAT2_1000_20_IBS_small_15_TRUE.e -o NAT2_1000_20_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 1416416 NAT2 20 IBS 1 3000 small 15 TRUE
+bsub -e NAT2_1000_20_IBS_small_15_FALSE.e -o NAT2_1000_20_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 2147708 NAT2 20 IBS 1 3000 small 15 FALSE
+bsub -e NAT2_1000_20_IBS_small_12_TRUE.e -o NAT2_1000_20_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 3897813 NAT2 20 IBS 1 3000 small 25 TRUE
+bsub -e NAT2_1000_20_IBS_small_12_FALSE.e -o NAT2_1000_20_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 8640091 NAT2 20 IBS 1 3000 small 25 FALSE
+ 
+bsub -e NAT2_1000_10_IBS_small_5_TRUE.e -o NAT2_1000_10_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4476755 NAT2 10 IBS 1 3000 small 5 TRUE
+bsub -e NAT2_1000_10_IBS_small_5_FALSE.e -o NAT2_1000_10_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7775 NAT2 10 IBS 1 3000 small 5 FALSE
+bsub -e NAT2_1000_10_IBS_small_15_TRUE.e -o NAT2_1000_10_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 5718770 NAT2 10 IBS 1 3000 small 15 TRUE
+bsub -e NAT2_1000_10_IBS_small_15_FALSE.e -o NAT2_1000_10_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 6900372 NAT2 10 IBS 1 3000 small 15 FALSE
+bsub -e NAT2_1000_10_IBS_small_12_TRUE.e -o NAT2_1000_10_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 3036808 NAT2 10 IBS 1 3000 small 25 TRUE
+bsub -e NAT2_1000_10_IBS_small_12_FALSE.e -o NAT2_1000_10_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 6555131 NAT2 10 IBS 1 3000 small 25 FALSE
+ 
+bsub -e NAT2_1000_5_IBS_small_5_TRUE.e -o NAT2_1000_5_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7929410 NAT2 5 IBS 1 3000 small 5 TRUE
+bsub -e NAT2_1000_5_IBS_small_5_FALSE.e -o NAT2_1000_5_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7272903 NAT2 5 IBS 1 3000 small 5 FALSE
+bsub -e NAT2_1000_5_IBS_small_15_TRUE.e -o NAT2_1000_5_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7994353 NAT2 5 IBS 1 3000 small 15 TRUE
+bsub -e NAT2_1000_5_IBS_small_15_FALSE.e -o NAT2_1000_5_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 5363564 NAT2 5 IBS 1 3000 small 15 FALSE
+bsub -e NAT2_1000_5_IBS_small_12_TRUE.e -o NAT2_1000_5_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9887582 NAT2 5 IBS 1 3000 small 25 TRUE
+bsub -e NAT2_1000_5_IBS_small_12_FALSE.e -o NAT2_1000_5_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 687976 NAT2 5 IBS 1 3000 small 25 FALSE
+
+bsub -e NAT2_1000_20_IBS_medium_5_TRUE.e -o NAT2_1000_20_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 8460542 NAT2 20 IBS 1 3000 medium 5 TRUE
+bsub -e NAT2_1000_20_IBS_medium_5_FALSE.e -o NAT2_1000_20_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4504968 NAT2 20 IBS 1 3000 medium 5 FALSE
+bsub -e NAT2_1000_20_IBS_medium_15_TRUE.e -o NAT2_1000_20_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7774577 NAT2 20 IBS 1 3000 medium 15 TRUE
+bsub -e NAT2_1000_20_IBS_medium_15_FALSE.e -o NAT2_1000_20_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 5315133 NAT2 20 IBS 1 3000 medium 15 FALSE
+bsub -e NAT2_1000_20_IBS_medium_12_TRUE.e -o NAT2_1000_20_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9334419 NAT2 20 IBS 1 3000 medium 25 TRUE
+bsub -e NAT2_1000_20_IBS_medium_12_FALSE.e -o NAT2_1000_20_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7963066 NAT2 20 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e NAT2_1000_10_IBS_medium_5_TRUE.e -o NAT2_1000_10_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7758457 NAT2 10 IBS 1 3000 medium 5 TRUE
+bsub -e NAT2_1000_10_IBS_medium_5_FALSE.e -o NAT2_1000_10_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4257784 NAT2 10 IBS 1 3000 medium 5 FALSE
+bsub -e NAT2_1000_10_IBS_medium_15_TRUE.e -o NAT2_1000_10_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 131677 NAT2 10 IBS 1 3000 medium 15 TRUE
+bsub -e NAT2_1000_10_IBS_medium_15_FALSE.e -o NAT2_1000_10_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 2279576 NAT2 10 IBS 1 3000 medium 15 FALSE
+bsub -e NAT2_1000_10_IBS_medium_12_TRUE.e -o NAT2_1000_10_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9300231 NAT2 10 IBS 1 3000 medium 25 TRUE
+bsub -e NAT2_1000_10_IBS_medium_12_FALSE.e -o NAT2_1000_10_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 1075000 NAT2 10 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e NAT2_1000_5_IBS_medium_5_TRUE.e -o NAT2_1000_5_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 3308249 NAT2 5 IBS 1 3000 medium 5 TRUE
+bsub -e NAT2_1000_5_IBS_medium_5_FALSE.e -o NAT2_1000_5_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 178600 NAT2 5 IBS 1 3000 medium 5 FALSE
+bsub -e NAT2_1000_5_IBS_medium_15_TRUE.e -o NAT2_1000_5_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 8394564 NAT2 5 IBS 1 3000 medium 15 TRUE
+bsub -e NAT2_1000_5_IBS_medium_15_FALSE.e -o NAT2_1000_5_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 6163116 NAT2 5 IBS 1 3000 medium 15 FALSE
+bsub -e NAT2_1000_5_IBS_medium_12_TRUE.e -o NAT2_1000_5_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 3759982 NAT2 5 IBS 1 3000 medium 25 TRUE
+bsub -e NAT2_1000_5_IBS_medium_12_FALSE.e -o NAT2_1000_5_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 6267463 NAT2 5 IBS 1 3000 medium 25 FALSE
+
+bsub -e NAT2_1000_20_IBS_large_5_TRUE.e -o NAT2_1000_20_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 3865084 NAT2 20 IBS 1 3000 large 5 TRUE
+bsub -e NAT2_1000_20_IBS_large_5_FALSE.e -o NAT2_1000_20_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 500018 NAT2 20 IBS 1 3000 large 5 FALSE
+bsub -e NAT2_1000_20_IBS_large_15_TRUE.e -o NAT2_1000_20_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 6231730 NAT2 20 IBS 1 3000 large 15 TRUE
+bsub -e NAT2_1000_20_IBS_large_15_FALSE.e -o NAT2_1000_20_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 2085618 NAT2 20 IBS 1 3000 large 15 FALSE
+bsub -e NAT2_1000_20_IBS_large_12_TRUE.e -o NAT2_1000_20_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9962342 NAT2 20 IBS 1 3000 large 25 TRUE
+bsub -e NAT2_1000_20_IBS_large_12_FALSE.e -o NAT2_1000_20_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 2306032 NAT2 20 IBS 1 3000 large 25 FALSE
+ 
+bsub -e NAT2_1000_10_IBS_large_5_TRUE.e -o NAT2_1000_10_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9147962 NAT2 10 IBS 1 3000 large 5 TRUE
+bsub -e NAT2_1000_10_IBS_large_5_FALSE.e -o NAT2_1000_10_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4027926 NAT2 10 IBS 1 3000 large 5 FALSE
+bsub -e NAT2_1000_10_IBS_large_15_TRUE.e -o NAT2_1000_10_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7570045 NAT2 10 IBS 1 3000 large 15 TRUE
+bsub -e NAT2_1000_10_IBS_large_15_FALSE.e -o NAT2_1000_10_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 5024877 NAT2 10 IBS 1 3000 large 15 FALSE
+bsub -e NAT2_1000_10_IBS_large_12_TRUE.e -o NAT2_1000_10_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 5481537 NAT2 10 IBS 1 3000 large 25 TRUE
+bsub -e NAT2_1000_10_IBS_large_12_FALSE.e -o NAT2_1000_10_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 1220726 NAT2 10 IBS 1 3000 large 25 FALSE
+ 
+bsub -e NAT2_1000_5_IBS_large_5_TRUE.e -o NAT2_1000_5_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 5503431 NAT2 5 IBS 1 3000 large 5 TRUE
+bsub -e NAT2_1000_5_IBS_large_5_FALSE.e -o NAT2_1000_5_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4039386 NAT2 5 IBS 1 3000 large 5 FALSE
+bsub -e NAT2_1000_5_IBS_large_15_TRUE.e -o NAT2_1000_5_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 8024264 NAT2 5 IBS 1 3000 large 15 TRUE
+bsub -e NAT2_1000_5_IBS_large_15_FALSE.e -o NAT2_1000_5_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7218882 NAT2 5 IBS 1 3000 large 15 FALSE
+bsub -e NAT2_1000_5_IBS_large_12_TRUE.e -o NAT2_1000_5_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7682899 NAT2 5 IBS 1 3000 large 25 TRUE
+bsub -e NAT2_1000_5_IBS_large_12_FALSE.e -o NAT2_1000_5_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 2807722 NAT2 5 IBS 1 3000 large 25 FALSE
+#################
+bsub -e CHI3L2_500_20_IBS_small_5_TRUE.e -o CHI3L2_500_20_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 2054183 CHI3L2 20 IBS 1 3000 small 5 TRUE
+bsub -e CHI3L2_500_20_IBS_small_5_FALSE.e -o CHI3L2_500_20_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 5494955 CHI3L2 20 IBS 1 3000 small 5 FALSE
+bsub -e CHI3L2_500_20_IBS_small_15_TRUE.e -o CHI3L2_500_20_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 2740174 CHI3L2 20 IBS 1 3000 small 15 TRUE
+bsub -e CHI3L2_500_20_IBS_small_15_FALSE.e -o CHI3L2_500_20_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 2250268 CHI3L2 20 IBS 1 3000 small 15 FALSE
+bsub -e CHI3L2_500_20_IBS_small_12_TRUE.e -o CHI3L2_500_20_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 2053314 CHI3L2 20 IBS 1 3000 small 25 TRUE
+bsub -e CHI3L2_500_20_IBS_small_12_FALSE.e -o CHI3L2_500_20_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 5255735 CHI3L2 20 IBS 1 3000 small 25 FALSE
+ 
+bsub -e CHI3L2_500_10_IBS_small_5_TRUE.e -o CHI3L2_500_10_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 7054260 CHI3L2 10 IBS 1 3000 small 5 TRUE
+bsub -e CHI3L2_500_10_IBS_small_5_FALSE.e -o CHI3L2_500_10_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 4471822 CHI3L2 10 IBS 1 3000 small 5 FALSE
+bsub -e CHI3L2_500_10_IBS_small_15_TRUE.e -o CHI3L2_500_10_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 5891513 CHI3L2 10 IBS 1 3000 small 15 TRUE
+bsub -e CHI3L2_500_10_IBS_small_15_FALSE.e -o CHI3L2_500_10_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 4955246 CHI3L2 10 IBS 1 3000 small 15 FALSE
+bsub -e CHI3L2_500_10_IBS_small_12_TRUE.e -o CHI3L2_500_10_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 458889 CHI3L2 10 IBS 1 3000 small 25 TRUE
+bsub -e CHI3L2_500_10_IBS_small_12_FALSE.e -o CHI3L2_500_10_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 3369356 CHI3L2 10 IBS 1 3000 small 25 FALSE
+ 
+bsub -e CHI3L2_500_5_IBS_small_5_TRUE.e -o CHI3L2_500_5_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 7801291 CHI3L2 5 IBS 1 3000 small 5 TRUE
+bsub -e CHI3L2_500_5_IBS_small_5_FALSE.e -o CHI3L2_500_5_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 929086 CHI3L2 5 IBS 1 3000 small 5 FALSE
+bsub -e CHI3L2_500_5_IBS_small_15_TRUE.e -o CHI3L2_500_5_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 1618352 CHI3L2 5 IBS 1 3000 small 15 TRUE
+bsub -e CHI3L2_500_5_IBS_small_15_FALSE.e -o CHI3L2_500_5_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 6353553 CHI3L2 5 IBS 1 3000 small 15 FALSE
+bsub -e CHI3L2_500_5_IBS_small_12_TRUE.e -o CHI3L2_500_5_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 2900360 CHI3L2 5 IBS 1 3000 small 25 TRUE
+bsub -e CHI3L2_500_5_IBS_small_12_FALSE.e -o CHI3L2_500_5_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 6457989 CHI3L2 5 IBS 1 3000 small 25 FALSE
+
+bsub -e CHI3L2_500_20_IBS_medium_5_TRUE.e -o CHI3L2_500_20_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 1108552 CHI3L2 20 IBS 1 3000 medium 5 TRUE
+bsub -e CHI3L2_500_20_IBS_medium_5_FALSE.e -o CHI3L2_500_20_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 5909133 CHI3L2 20 IBS 1 3000 medium 5 FALSE
+bsub -e CHI3L2_500_20_IBS_medium_15_TRUE.e -o CHI3L2_500_20_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 9386721 CHI3L2 20 IBS 1 3000 medium 15 TRUE
+bsub -e CHI3L2_500_20_IBS_medium_15_FALSE.e -o CHI3L2_500_20_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 8580845 CHI3L2 20 IBS 1 3000 medium 15 FALSE
+bsub -e CHI3L2_500_20_IBS_medium_12_TRUE.e -o CHI3L2_500_20_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 3331295 CHI3L2 20 IBS 1 3000 medium 25 TRUE
+bsub -e CHI3L2_500_20_IBS_medium_12_FALSE.e -o CHI3L2_500_20_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 4692134 CHI3L2 20 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e CHI3L2_500_10_IBS_medium_5_TRUE.e -o CHI3L2_500_10_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 6483129 CHI3L2 10 IBS 1 3000 medium 5 TRUE
+bsub -e CHI3L2_500_10_IBS_medium_5_FALSE.e -o CHI3L2_500_10_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 1397892 CHI3L2 10 IBS 1 3000 medium 5 FALSE
+bsub -e CHI3L2_500_10_IBS_medium_15_TRUE.e -o CHI3L2_500_10_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 4560924 CHI3L2 10 IBS 1 3000 medium 15 TRUE
+bsub -e CHI3L2_500_10_IBS_medium_15_FALSE.e -o CHI3L2_500_10_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 7535510 CHI3L2 10 IBS 1 3000 medium 15 FALSE
+bsub -e CHI3L2_500_10_IBS_medium_12_TRUE.e -o CHI3L2_500_10_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 9572470 CHI3L2 10 IBS 1 3000 medium 25 TRUE
+bsub -e CHI3L2_500_10_IBS_medium_12_FALSE.e -o CHI3L2_500_10_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 687336 CHI3L2 10 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e CHI3L2_500_5_IBS_medium_5_TRUE.e -o CHI3L2_500_5_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 8990906 CHI3L2 5 IBS 1 3000 medium 5 TRUE
+bsub -e CHI3L2_500_5_IBS_medium_5_FALSE.e -o CHI3L2_500_5_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 7973460 CHI3L2 5 IBS 1 3000 medium 5 FALSE
+bsub -e CHI3L2_500_5_IBS_medium_15_TRUE.e -o CHI3L2_500_5_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 1729561 CHI3L2 5 IBS 1 3000 medium 15 TRUE
+bsub -e CHI3L2_500_5_IBS_medium_15_FALSE.e -o CHI3L2_500_5_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 2752498 CHI3L2 5 IBS 1 3000 medium 15 FALSE
+bsub -e CHI3L2_500_5_IBS_medium_12_TRUE.e -o CHI3L2_500_5_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 1680857 CHI3L2 5 IBS 1 3000 medium 25 TRUE
+bsub -e CHI3L2_500_5_IBS_medium_12_FALSE.e -o CHI3L2_500_5_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 5661302 CHI3L2 5 IBS 1 3000 medium 25 FALSE
+
+bsub -e CHI3L2_500_20_IBS_large_5_TRUE.e -o CHI3L2_500_20_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 9526752 CHI3L2 20 IBS 1 3000 large 5 TRUE
+bsub -e CHI3L2_500_20_IBS_large_5_FALSE.e -o CHI3L2_500_20_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 585579 CHI3L2 20 IBS 1 3000 large 5 FALSE
+bsub -e CHI3L2_500_20_IBS_large_15_TRUE.e -o CHI3L2_500_20_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 9421121 CHI3L2 20 IBS 1 3000 large 15 TRUE
+bsub -e CHI3L2_500_20_IBS_large_15_FALSE.e -o CHI3L2_500_20_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 7309538 CHI3L2 20 IBS 1 3000 large 15 FALSE
+bsub -e CHI3L2_500_20_IBS_large_12_TRUE.e -o CHI3L2_500_20_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 2221518 CHI3L2 20 IBS 1 3000 large 25 TRUE
+bsub -e CHI3L2_500_20_IBS_large_12_FALSE.e -o CHI3L2_500_20_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 405314 CHI3L2 20 IBS 1 3000 large 25 FALSE
+ 
+bsub -e CHI3L2_500_10_IBS_large_5_TRUE.e -o CHI3L2_500_10_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 4855157 CHI3L2 10 IBS 1 3000 large 5 TRUE
+bsub -e CHI3L2_500_10_IBS_large_5_FALSE.e -o CHI3L2_500_10_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 1554106 CHI3L2 10 IBS 1 3000 large 5 FALSE
+bsub -e CHI3L2_500_10_IBS_large_15_TRUE.e -o CHI3L2_500_10_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 8303312 CHI3L2 10 IBS 1 3000 large 15 TRUE
+bsub -e CHI3L2_500_10_IBS_large_15_FALSE.e -o CHI3L2_500_10_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 4438160 CHI3L2 10 IBS 1 3000 large 15 FALSE
+bsub -e CHI3L2_500_10_IBS_large_12_TRUE.e -o CHI3L2_500_10_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 2489004 CHI3L2 10 IBS 1 3000 large 25 TRUE
+bsub -e CHI3L2_500_10_IBS_large_12_FALSE.e -o CHI3L2_500_10_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 1195031 CHI3L2 10 IBS 1 3000 large 25 FALSE
+ 
+bsub -e CHI3L2_500_5_IBS_large_5_TRUE.e -o CHI3L2_500_5_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 4922741 CHI3L2 5 IBS 1 3000 large 5 TRUE
+bsub -e CHI3L2_500_5_IBS_large_5_FALSE.e -o CHI3L2_500_5_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 8359844 CHI3L2 5 IBS 1 3000 large 5 FALSE
+bsub -e CHI3L2_500_5_IBS_large_15_TRUE.e -o CHI3L2_500_5_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 1575046 CHI3L2 5 IBS 1 3000 large 15 TRUE
+bsub -e CHI3L2_500_5_IBS_large_15_FALSE.e -o CHI3L2_500_5_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 3269282 CHI3L2 5 IBS 1 3000 large 15 FALSE
+bsub -e CHI3L2_500_5_IBS_large_12_TRUE.e -o CHI3L2_500_5_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 2321729 CHI3L2 5 IBS 1 3000 large 25 TRUE
+bsub -e CHI3L2_500_5_IBS_large_12_FALSE.e -o CHI3L2_500_5_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 500 3981003 CHI3L2 5 IBS 1 3000 large 25 FALSE
+#############
+bsub -e CHI3L2_1000_20_IBS_small_5_TRUE.e -o CHI3L2_1000_20_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 8484851 CHI3L2 20 IBS 1 3000 small 5 TRUE
+bsub -e CHI3L2_1000_20_IBS_small_5_FALSE.e -o CHI3L2_1000_20_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 1595192 CHI3L2 20 IBS 1 3000 small 5 FALSE
+bsub -e CHI3L2_1000_20_IBS_small_15_TRUE.e -o CHI3L2_1000_20_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 435777 CHI3L2 20 IBS 1 3000 small 15 TRUE
+bsub -e CHI3L2_1000_20_IBS_small_15_FALSE.e -o CHI3L2_1000_20_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 7168172 CHI3L2 20 IBS 1 3000 small 15 FALSE
+bsub -e CHI3L2_1000_20_IBS_small_12_TRUE.e -o CHI3L2_1000_20_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 2210834 CHI3L2 20 IBS 1 3000 small 25 TRUE
+bsub -e CHI3L2_1000_20_IBS_small_12_FALSE.e -o CHI3L2_1000_20_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 6847093 CHI3L2 20 IBS 1 3000 small 25 FALSE
+ 
+bsub -e CHI3L2_1000_10_IBS_small_5_TRUE.e -o CHI3L2_1000_10_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 1948082 CHI3L2 10 IBS 1 3000 small 5 TRUE
+bsub -e CHI3L2_1000_10_IBS_small_5_FALSE.e -o CHI3L2_1000_10_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 4684303 CHI3L2 10 IBS 1 3000 small 5 FALSE
+bsub -e CHI3L2_1000_10_IBS_small_15_TRUE.e -o CHI3L2_1000_10_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 5365181 CHI3L2 10 IBS 1 3000 small 15 TRUE
+bsub -e CHI3L2_1000_10_IBS_small_15_FALSE.e -o CHI3L2_1000_10_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 7008921 CHI3L2 10 IBS 1 3000 small 15 FALSE
+bsub -e CHI3L2_1000_10_IBS_small_12_TRUE.e -o CHI3L2_1000_10_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 1762151 CHI3L2 10 IBS 1 3000 small 25 TRUE
+bsub -e CHI3L2_1000_10_IBS_small_12_FALSE.e -o CHI3L2_1000_10_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 8387076 CHI3L2 10 IBS 1 3000 small 25 FALSE
+ 
+bsub -e CHI3L2_1000_5_IBS_small_5_TRUE.e -o CHI3L2_1000_5_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 6931735 CHI3L2 5 IBS 1 3000 small 5 TRUE
+bsub -e CHI3L2_1000_5_IBS_small_5_FALSE.e -o CHI3L2_1000_5_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 4641794 CHI3L2 5 IBS 1 3000 small 5 FALSE
+bsub -e CHI3L2_1000_5_IBS_small_15_TRUE.e -o CHI3L2_1000_5_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 6900646 CHI3L2 5 IBS 1 3000 small 15 TRUE
+bsub -e CHI3L2_1000_5_IBS_small_15_FALSE.e -o CHI3L2_1000_5_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 9952637 CHI3L2 5 IBS 1 3000 small 15 FALSE
+bsub -e CHI3L2_1000_5_IBS_small_12_TRUE.e -o CHI3L2_1000_5_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 4732859 CHI3L2 5 IBS 1 3000 small 25 TRUE
+bsub -e CHI3L2_1000_5_IBS_small_12_FALSE.e -o CHI3L2_1000_5_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 4622973 CHI3L2 5 IBS 1 3000 small 25 FALSE
+
+bsub -e CHI3L2_1000_20_IBS_medium_5_TRUE.e -o CHI3L2_1000_20_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 6852938 CHI3L2 20 IBS 1 3000 medium 5 TRUE
+bsub -e CHI3L2_1000_20_IBS_medium_5_FALSE.e -o CHI3L2_1000_20_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 9344162 CHI3L2 20 IBS 1 3000 medium 5 FALSE
+bsub -e CHI3L2_1000_20_IBS_medium_15_TRUE.e -o CHI3L2_1000_20_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 5822954 CHI3L2 20 IBS 1 3000 medium 15 TRUE
+bsub -e CHI3L2_1000_20_IBS_medium_15_FALSE.e -o CHI3L2_1000_20_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 5993948 CHI3L2 20 IBS 1 3000 medium 15 FALSE
+bsub -e CHI3L2_1000_20_IBS_medium_12_TRUE.e -o CHI3L2_1000_20_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 2093380 CHI3L2 20 IBS 1 3000 medium 25 TRUE
+bsub -e CHI3L2_1000_20_IBS_medium_12_FALSE.e -o CHI3L2_1000_20_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 6012646 CHI3L2 20 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e CHI3L2_1000_10_IBS_medium_5_TRUE.e -o CHI3L2_1000_10_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 5480604 CHI3L2 10 IBS 1 3000 medium 5 TRUE
+bsub -e CHI3L2_1000_10_IBS_medium_5_FALSE.e -o CHI3L2_1000_10_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 3229845 CHI3L2 10 IBS 1 3000 medium 5 FALSE
+bsub -e CHI3L2_1000_10_IBS_medium_15_TRUE.e -o CHI3L2_1000_10_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 7290090 CHI3L2 10 IBS 1 3000 medium 15 TRUE
+bsub -e CHI3L2_1000_10_IBS_medium_15_FALSE.e -o CHI3L2_1000_10_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 4860395 CHI3L2 10 IBS 1 3000 medium 15 FALSE
+bsub -e CHI3L2_1000_10_IBS_medium_12_TRUE.e -o CHI3L2_1000_10_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 1584144 CHI3L2 10 IBS 1 3000 medium 25 TRUE
+bsub -e CHI3L2_1000_10_IBS_medium_12_FALSE.e -o CHI3L2_1000_10_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 9551542 CHI3L2 10 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e CHI3L2_1000_5_IBS_medium_5_TRUE.e -o CHI3L2_1000_5_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 9206246 CHI3L2 5 IBS 1 3000 medium 5 TRUE
+bsub -e CHI3L2_1000_5_IBS_medium_5_FALSE.e -o CHI3L2_1000_5_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 6824734 CHI3L2 5 IBS 1 3000 medium 5 FALSE
+bsub -e CHI3L2_1000_5_IBS_medium_15_TRUE.e -o CHI3L2_1000_5_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 2184491 CHI3L2 5 IBS 1 3000 medium 15 TRUE
+bsub -e CHI3L2_1000_5_IBS_medium_15_FALSE.e -o CHI3L2_1000_5_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 8261076 CHI3L2 5 IBS 1 3000 medium 15 FALSE
+bsub -e CHI3L2_1000_5_IBS_medium_12_TRUE.e -o CHI3L2_1000_5_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 2428677 CHI3L2 5 IBS 1 3000 medium 25 TRUE
+bsub -e CHI3L2_1000_5_IBS_medium_12_FALSE.e -o CHI3L2_1000_5_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 1206391 CHI3L2 5 IBS 1 3000 medium 25 FALSE
+
+bsub -e CHI3L2_1000_20_IBS_large_5_TRUE.e -o CHI3L2_1000_20_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 4151033 CHI3L2 20 IBS 1 3000 large 5 TRUE
+bsub -e CHI3L2_1000_20_IBS_large_5_FALSE.e -o CHI3L2_1000_20_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 5166170 CHI3L2 20 IBS 1 3000 large 5 FALSE
+bsub -e CHI3L2_1000_20_IBS_large_15_TRUE.e -o CHI3L2_1000_20_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 9259354 CHI3L2 20 IBS 1 3000 large 15 TRUE
+bsub -e CHI3L2_1000_20_IBS_large_15_FALSE.e -o CHI3L2_1000_20_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 7299375 CHI3L2 20 IBS 1 3000 large 15 FALSE
+bsub -e CHI3L2_1000_20_IBS_large_12_TRUE.e -o CHI3L2_1000_20_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 8013037 CHI3L2 20 IBS 1 3000 large 25 TRUE
+bsub -e CHI3L2_1000_20_IBS_large_12_FALSE.e -o CHI3L2_1000_20_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 9883043 CHI3L2 20 IBS 1 3000 large 25 FALSE
+ 
+bsub -e CHI3L2_1000_10_IBS_large_5_TRUE.e -o CHI3L2_1000_10_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 377794 CHI3L2 10 IBS 1 3000 large 5 TRUE
+bsub -e CHI3L2_1000_10_IBS_large_5_FALSE.e -o CHI3L2_1000_10_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 3838132 CHI3L2 10 IBS 1 3000 large 5 FALSE
+bsub -e CHI3L2_1000_10_IBS_large_15_TRUE.e -o CHI3L2_1000_10_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 1414074 CHI3L2 10 IBS 1 3000 large 15 TRUE
+bsub -e CHI3L2_1000_10_IBS_large_15_FALSE.e -o CHI3L2_1000_10_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 2691458 CHI3L2 10 IBS 1 3000 large 15 FALSE
+bsub -e CHI3L2_1000_10_IBS_large_12_TRUE.e -o CHI3L2_1000_10_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 2089348 CHI3L2 10 IBS 1 3000 large 25 TRUE
+bsub -e CHI3L2_1000_10_IBS_large_12_FALSE.e -o CHI3L2_1000_10_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 7038386 CHI3L2 10 IBS 1 3000 large 25 FALSE
+ 
+bsub -e CHI3L2_1000_5_IBS_large_5_TRUE.e -o CHI3L2_1000_5_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 8513166 CHI3L2 5 IBS 1 3000 large 5 TRUE
+bsub -e CHI3L2_1000_5_IBS_large_5_FALSE.e -o CHI3L2_1000_5_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 1622822 CHI3L2 5 IBS 1 3000 large 5 FALSE
+bsub -e CHI3L2_1000_5_IBS_large_15_TRUE.e -o CHI3L2_1000_5_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 8880045 CHI3L2 5 IBS 1 3000 large 15 TRUE
+bsub -e CHI3L2_1000_5_IBS_large_15_FALSE.e -o CHI3L2_1000_5_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 291225 CHI3L2 5 IBS 1 3000 large 15 FALSE
+bsub -e CHI3L2_1000_5_IBS_large_12_TRUE.e -o CHI3L2_1000_5_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 460372 CHI3L2 5 IBS 1 3000 large 25 TRUE
+bsub -e CHI3L2_1000_5_IBS_large_12_FALSE.e -o CHI3L2_1000_5_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 1 1000 3208462 CHI3L2 5 IBS 1 3000 large 25 FALSE
+#################
+bsub -e ASAH1_500_20_IBS_small_5_TRUE.e -o ASAH1_500_20_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 2557184 ASAH1 20 IBS 1 3000 small 5 TRUE
+bsub -e ASAH1_500_20_IBS_small_5_FALSE.e -o ASAH1_500_20_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9945940 ASAH1 20 IBS 1 3000 small 5 FALSE
+bsub -e ASAH1_500_20_IBS_small_15_TRUE.e -o ASAH1_500_20_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3512865 ASAH1 20 IBS 1 3000 small 15 TRUE
+bsub -e ASAH1_500_20_IBS_small_15_FALSE.e -o ASAH1_500_20_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3796079 ASAH1 20 IBS 1 3000 small 15 FALSE
+bsub -e ASAH1_500_20_IBS_small_12_TRUE.e -o ASAH1_500_20_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9947734 ASAH1 20 IBS 1 3000 small 25 TRUE
+bsub -e ASAH1_500_20_IBS_small_12_FALSE.e -o ASAH1_500_20_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 4709223 ASAH1 20 IBS 1 3000 small 25 FALSE
+ 
+bsub -e ASAH1_500_10_IBS_small_5_TRUE.e -o ASAH1_500_10_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 1166434 ASAH1 10 IBS 1 3000 small 5 TRUE
+bsub -e ASAH1_500_10_IBS_small_5_FALSE.e -o ASAH1_500_10_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 7020549 ASAH1 10 IBS 1 3000 small 5 FALSE
+bsub -e ASAH1_500_10_IBS_small_15_TRUE.e -o ASAH1_500_10_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 580033 ASAH1 10 IBS 1 3000 small 15 TRUE
+bsub -e ASAH1_500_10_IBS_small_15_FALSE.e -o ASAH1_500_10_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 1851874 ASAH1 10 IBS 1 3000 small 15 FALSE
+bsub -e ASAH1_500_10_IBS_small_12_TRUE.e -o ASAH1_500_10_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 608788 ASAH1 10 IBS 1 3000 small 25 TRUE
+bsub -e ASAH1_500_10_IBS_small_12_FALSE.e -o ASAH1_500_10_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3720659 ASAH1 10 IBS 1 3000 small 25 FALSE
+ 
+bsub -e ASAH1_500_5_IBS_small_5_TRUE.e -o ASAH1_500_5_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 7729278 ASAH1 5 IBS 1 3000 small 5 TRUE
+bsub -e ASAH1_500_5_IBS_small_5_FALSE.e -o ASAH1_500_5_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5278379 ASAH1 5 IBS 1 3000 small 5 FALSE
+bsub -e ASAH1_500_5_IBS_small_15_TRUE.e -o ASAH1_500_5_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 7821323 ASAH1 5 IBS 1 3000 small 15 TRUE
+bsub -e ASAH1_500_5_IBS_small_15_FALSE.e -o ASAH1_500_5_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 1552178 ASAH1 5 IBS 1 3000 small 15 FALSE
+bsub -e ASAH1_500_5_IBS_small_12_TRUE.e -o ASAH1_500_5_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 2151908 ASAH1 5 IBS 1 3000 small 25 TRUE
+bsub -e ASAH1_500_5_IBS_small_12_FALSE.e -o ASAH1_500_5_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3135679 ASAH1 5 IBS 1 3000 small 25 FALSE
+
+bsub -e ASAH1_500_20_IBS_medium_5_TRUE.e -o ASAH1_500_20_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6346138 ASAH1 20 IBS 1 3000 medium 5 TRUE
+bsub -e ASAH1_500_20_IBS_medium_5_FALSE.e -o ASAH1_500_20_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5193208 ASAH1 20 IBS 1 3000 medium 5 FALSE
+bsub -e ASAH1_500_20_IBS_medium_15_TRUE.e -o ASAH1_500_20_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 7232388 ASAH1 20 IBS 1 3000 medium 15 TRUE
+bsub -e ASAH1_500_20_IBS_medium_15_FALSE.e -o ASAH1_500_20_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 2006550 ASAH1 20 IBS 1 3000 medium 15 FALSE
+bsub -e ASAH1_500_20_IBS_medium_12_TRUE.e -o ASAH1_500_20_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 7784261 ASAH1 20 IBS 1 3000 medium 25 TRUE
+bsub -e ASAH1_500_20_IBS_medium_12_FALSE.e -o ASAH1_500_20_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6465275 ASAH1 20 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e ASAH1_500_10_IBS_medium_5_TRUE.e -o ASAH1_500_10_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5657627 ASAH1 10 IBS 1 3000 medium 5 TRUE
+bsub -e ASAH1_500_10_IBS_medium_5_FALSE.e -o ASAH1_500_10_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 8805349 ASAH1 10 IBS 1 3000 medium 5 FALSE
+bsub -e ASAH1_500_10_IBS_medium_15_TRUE.e -o ASAH1_500_10_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9601596 ASAH1 10 IBS 1 3000 medium 15 TRUE
+bsub -e ASAH1_500_10_IBS_medium_15_FALSE.e -o ASAH1_500_10_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9905786 ASAH1 10 IBS 1 3000 medium 15 FALSE
+bsub -e ASAH1_500_10_IBS_medium_12_TRUE.e -o ASAH1_500_10_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 2644676 ASAH1 10 IBS 1 3000 medium 25 TRUE
+bsub -e ASAH1_500_10_IBS_medium_12_FALSE.e -o ASAH1_500_10_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 8640613 ASAH1 10 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e ASAH1_500_5_IBS_medium_5_TRUE.e -o ASAH1_500_5_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3650645 ASAH1 5 IBS 1 3000 medium 5 TRUE
+bsub -e ASAH1_500_5_IBS_medium_5_FALSE.e -o ASAH1_500_5_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 127038 ASAH1 5 IBS 1 3000 medium 5 FALSE
+bsub -e ASAH1_500_5_IBS_medium_15_TRUE.e -o ASAH1_500_5_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 1198819 ASAH1 5 IBS 1 3000 medium 15 TRUE
+bsub -e ASAH1_500_5_IBS_medium_15_FALSE.e -o ASAH1_500_5_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6972130 ASAH1 5 IBS 1 3000 medium 15 FALSE
+bsub -e ASAH1_500_5_IBS_medium_12_TRUE.e -o ASAH1_500_5_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6731002 ASAH1 5 IBS 1 3000 medium 25 TRUE
+bsub -e ASAH1_500_5_IBS_medium_12_FALSE.e -o ASAH1_500_5_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9496174 ASAH1 5 IBS 1 3000 medium 25 FALSE
+
+bsub -e ASAH1_500_20_IBS_large_5_TRUE.e -o ASAH1_500_20_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9036214 ASAH1 20 IBS 1 3000 large 5 TRUE
+bsub -e ASAH1_500_20_IBS_large_5_FALSE.e -o ASAH1_500_20_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 8311742 ASAH1 20 IBS 1 3000 large 5 FALSE
+bsub -e ASAH1_500_20_IBS_large_15_TRUE.e -o ASAH1_500_20_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9203259 ASAH1 20 IBS 1 3000 large 15 TRUE
+bsub -e ASAH1_500_20_IBS_large_15_FALSE.e -o ASAH1_500_20_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9819366 ASAH1 20 IBS 1 3000 large 15 FALSE
+bsub -e ASAH1_500_20_IBS_large_12_TRUE.e -o ASAH1_500_20_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3935348 ASAH1 20 IBS 1 3000 large 25 TRUE
+bsub -e ASAH1_500_20_IBS_large_12_FALSE.e -o ASAH1_500_20_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6556932 ASAH1 20 IBS 1 3000 large 25 FALSE
+ 
+bsub -e ASAH1_500_10_IBS_large_5_TRUE.e -o ASAH1_500_10_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 8011741 ASAH1 10 IBS 1 3000 large 5 TRUE
+bsub -e ASAH1_500_10_IBS_large_5_FALSE.e -o ASAH1_500_10_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 251515 ASAH1 10 IBS 1 3000 large 5 FALSE
+bsub -e ASAH1_500_10_IBS_large_15_TRUE.e -o ASAH1_500_10_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 4984134 ASAH1 10 IBS 1 3000 large 15 TRUE
+bsub -e ASAH1_500_10_IBS_large_15_FALSE.e -o ASAH1_500_10_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3382206 ASAH1 10 IBS 1 3000 large 15 FALSE
+bsub -e ASAH1_500_10_IBS_large_12_TRUE.e -o ASAH1_500_10_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 9309035 ASAH1 10 IBS 1 3000 large 25 TRUE
+bsub -e ASAH1_500_10_IBS_large_12_FALSE.e -o ASAH1_500_10_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 1428007 ASAH1 10 IBS 1 3000 large 25 FALSE
+ 
+bsub -e ASAH1_500_5_IBS_large_5_TRUE.e -o ASAH1_500_5_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5184708 ASAH1 5 IBS 1 3000 large 5 TRUE
+bsub -e ASAH1_500_5_IBS_large_5_FALSE.e -o ASAH1_500_5_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 2537124 ASAH1 5 IBS 1 3000 large 5 FALSE
+bsub -e ASAH1_500_5_IBS_large_15_TRUE.e -o ASAH1_500_5_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3785731 ASAH1 5 IBS 1 3000 large 15 TRUE
+bsub -e ASAH1_500_5_IBS_large_15_FALSE.e -o ASAH1_500_5_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 5987760 ASAH1 5 IBS 1 3000 large 15 FALSE
+bsub -e ASAH1_500_5_IBS_large_12_TRUE.e -o ASAH1_500_5_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 6936388 ASAH1 5 IBS 1 3000 large 25 TRUE
+bsub -e ASAH1_500_5_IBS_large_12_FALSE.e -o ASAH1_500_5_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 500 3422035 ASAH1 5 IBS 1 3000 large 25 FALSE
+#################
+bsub -e ASAH1_1000_20_IBS_small_5_TRUE.e -o ASAH1_1000_20_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 8017197 ASAH1 20 IBS 1 3000 small 5 TRUE
+bsub -e ASAH1_1000_20_IBS_small_5_FALSE.e -o ASAH1_1000_20_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9508867 ASAH1 20 IBS 1 3000 small 5 FALSE
+bsub -e ASAH1_1000_20_IBS_small_15_TRUE.e -o ASAH1_1000_20_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 8426698 ASAH1 20 IBS 1 3000 small 15 TRUE
+bsub -e ASAH1_1000_20_IBS_small_15_FALSE.e -o ASAH1_1000_20_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 5845507 ASAH1 20 IBS 1 3000 small 15 FALSE
+bsub -e ASAH1_1000_20_IBS_small_12_TRUE.e -o ASAH1_1000_20_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4056526 ASAH1 20 IBS 1 3000 small 25 TRUE
+bsub -e ASAH1_1000_20_IBS_small_12_FALSE.e -o ASAH1_1000_20_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 3979570 ASAH1 20 IBS 1 3000 small 25 FALSE
+ 
+bsub -e ASAH1_1000_10_IBS_small_5_TRUE.e -o ASAH1_1000_10_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9339287 ASAH1 10 IBS 1 3000 small 5 TRUE
+bsub -e ASAH1_1000_10_IBS_small_5_FALSE.e -o ASAH1_1000_10_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4508080 ASAH1 10 IBS 1 3000 small 5 FALSE
+bsub -e ASAH1_1000_10_IBS_small_15_TRUE.e -o ASAH1_1000_10_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9291579 ASAH1 10 IBS 1 3000 small 15 TRUE
+bsub -e ASAH1_1000_10_IBS_small_15_FALSE.e -o ASAH1_1000_10_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 589567 ASAH1 10 IBS 1 3000 small 15 FALSE
+bsub -e ASAH1_1000_10_IBS_small_12_TRUE.e -o ASAH1_1000_10_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 5201623 ASAH1 10 IBS 1 3000 small 25 TRUE
+bsub -e ASAH1_1000_10_IBS_small_12_FALSE.e -o ASAH1_1000_10_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4702180 ASAH1 10 IBS 1 3000 small 25 FALSE
+ 
+bsub -e ASAH1_1000_5_IBS_small_5_TRUE.e -o ASAH1_1000_5_IBS_small_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7416426 ASAH1 5 IBS 1 3000 small 5 TRUE
+bsub -e ASAH1_1000_5_IBS_small_5_FALSE.e -o ASAH1_1000_5_IBS_small_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 5320508 ASAH1 5 IBS 1 3000 small 5 FALSE
+bsub -e ASAH1_1000_5_IBS_small_15_TRUE.e -o ASAH1_1000_5_IBS_small_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 8943754 ASAH1 5 IBS 1 3000 small 15 TRUE
+bsub -e ASAH1_1000_5_IBS_small_15_FALSE.e -o ASAH1_1000_5_IBS_small_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 8226946 ASAH1 5 IBS 1 3000 small 15 FALSE
+bsub -e ASAH1_1000_5_IBS_small_12_TRUE.e -o ASAH1_1000_5_IBS_small_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4261398 ASAH1 5 IBS 1 3000 small 25 TRUE
+bsub -e ASAH1_1000_5_IBS_small_12_FALSE.e -o ASAH1_1000_5_IBS_small_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 6975647 ASAH1 5 IBS 1 3000 small 25 FALSE
+
+bsub -e ASAH1_1000_20_IBS_medium_5_TRUE.e -o ASAH1_1000_20_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7438377 ASAH1 20 IBS 1 3000 medium 5 TRUE
+bsub -e ASAH1_1000_20_IBS_medium_5_FALSE.e -o ASAH1_1000_20_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9507860 ASAH1 20 IBS 1 3000 medium 5 FALSE
+bsub -e ASAH1_1000_20_IBS_medium_15_TRUE.e -o ASAH1_1000_20_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 3052160 ASAH1 20 IBS 1 3000 medium 15 TRUE
+bsub -e ASAH1_1000_20_IBS_medium_15_FALSE.e -o ASAH1_1000_20_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 1985697 ASAH1 20 IBS 1 3000 medium 15 FALSE
+bsub -e ASAH1_1000_20_IBS_medium_12_TRUE.e -o ASAH1_1000_20_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9547778 ASAH1 20 IBS 1 3000 medium 25 TRUE
+bsub -e ASAH1_1000_20_IBS_medium_12_FALSE.e -o ASAH1_1000_20_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9285389 ASAH1 20 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e ASAH1_1000_10_IBS_medium_5_TRUE.e -o ASAH1_1000_10_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 2315565 ASAH1 10 IBS 1 3000 medium 5 TRUE
+bsub -e ASAH1_1000_10_IBS_medium_5_FALSE.e -o ASAH1_1000_10_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 3596451 ASAH1 10 IBS 1 3000 medium 5 FALSE
+bsub -e ASAH1_1000_10_IBS_medium_15_TRUE.e -o ASAH1_1000_10_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 2180108 ASAH1 10 IBS 1 3000 medium 15 TRUE
+bsub -e ASAH1_1000_10_IBS_medium_15_FALSE.e -o ASAH1_1000_10_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 5856281 ASAH1 10 IBS 1 3000 medium 15 FALSE
+bsub -e ASAH1_1000_10_IBS_medium_12_TRUE.e -o ASAH1_1000_10_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7640726 ASAH1 10 IBS 1 3000 medium 25 TRUE
+bsub -e ASAH1_1000_10_IBS_medium_12_FALSE.e -o ASAH1_1000_10_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 6468124 ASAH1 10 IBS 1 3000 medium 25 FALSE
+ 
+bsub -e ASAH1_1000_5_IBS_medium_5_TRUE.e -o ASAH1_1000_5_IBS_medium_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 3418533 ASAH1 5 IBS 1 3000 medium 5 TRUE
+bsub -e ASAH1_1000_5_IBS_medium_5_FALSE.e -o ASAH1_1000_5_IBS_medium_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4516821 ASAH1 5 IBS 1 3000 medium 5 FALSE
+bsub -e ASAH1_1000_5_IBS_medium_15_TRUE.e -o ASAH1_1000_5_IBS_medium_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4946115 ASAH1 5 IBS 1 3000 medium 15 TRUE
+bsub -e ASAH1_1000_5_IBS_medium_15_FALSE.e -o ASAH1_1000_5_IBS_medium_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 1274603 ASAH1 5 IBS 1 3000 medium 15 FALSE
+bsub -e ASAH1_1000_5_IBS_medium_12_TRUE.e -o ASAH1_1000_5_IBS_medium_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9101559 ASAH1 5 IBS 1 3000 medium 25 TRUE
+bsub -e ASAH1_1000_5_IBS_medium_12_FALSE.e -o ASAH1_1000_5_IBS_medium_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 6881816 ASAH1 5 IBS 1 3000 medium 25 FALSE
+
+bsub -e ASAH1_1000_20_IBS_large_5_TRUE.e -o ASAH1_1000_20_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 827632 ASAH1 20 IBS 1 3000 large 5 TRUE
+bsub -e ASAH1_1000_20_IBS_large_5_FALSE.e -o ASAH1_1000_20_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 8073371 ASAH1 20 IBS 1 3000 large 5 FALSE
+bsub -e ASAH1_1000_20_IBS_large_15_TRUE.e -o ASAH1_1000_20_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 3828130 ASAH1 20 IBS 1 3000 large 15 TRUE
+bsub -e ASAH1_1000_20_IBS_large_15_FALSE.e -o ASAH1_1000_20_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 4808864 ASAH1 20 IBS 1 3000 large 15 FALSE
+bsub -e ASAH1_1000_20_IBS_large_12_TRUE.e -o ASAH1_1000_20_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 1716402 ASAH1 20 IBS 1 3000 large 25 TRUE
+bsub -e ASAH1_1000_20_IBS_large_12_FALSE.e -o ASAH1_1000_20_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7389526 ASAH1 20 IBS 1 3000 large 25 FALSE
+ 
+bsub -e ASAH1_1000_10_IBS_large_5_TRUE.e -o ASAH1_1000_10_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7077202 ASAH1 10 IBS 1 3000 large 5 TRUE
+bsub -e ASAH1_1000_10_IBS_large_5_FALSE.e -o ASAH1_1000_10_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 2235276 ASAH1 10 IBS 1 3000 large 5 FALSE
+bsub -e ASAH1_1000_10_IBS_large_15_TRUE.e -o ASAH1_1000_10_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 6974471 ASAH1 10 IBS 1 3000 large 15 TRUE
+bsub -e ASAH1_1000_10_IBS_large_15_FALSE.e -o ASAH1_1000_10_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9213984 ASAH1 10 IBS 1 3000 large 15 FALSE
+bsub -e ASAH1_1000_10_IBS_large_12_TRUE.e -o ASAH1_1000_10_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 579241 ASAH1 10 IBS 1 3000 large 25 TRUE
+bsub -e ASAH1_1000_10_IBS_large_12_FALSE.e -o ASAH1_1000_10_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 1098921 ASAH1 10 IBS 1 3000 large 25 FALSE
+ 
+bsub -e ASAH1_1000_5_IBS_large_5_TRUE.e -o ASAH1_1000_5_IBS_large_5_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9548914 ASAH1 5 IBS 1 3000 large 5 TRUE
+bsub -e ASAH1_1000_5_IBS_large_5_FALSE.e -o ASAH1_1000_5_IBS_large_5_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 404166 ASAH1 5 IBS 1 3000 large 5 FALSE
+bsub -e ASAH1_1000_5_IBS_large_15_TRUE.e -o ASAH1_1000_5_IBS_large_15_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9433476 ASAH1 5 IBS 1 3000 large 15 TRUE
+bsub -e ASAH1_1000_5_IBS_large_15_FALSE.e -o ASAH1_1000_5_IBS_large_15_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 7950797 ASAH1 5 IBS 1 3000 large 15 FALSE
+bsub -e ASAH1_1000_5_IBS_large_12_TRUE.e -o ASAH1_1000_5_IBS_large_12_TRUE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 9026398 ASAH1 5 IBS 1 3000 large 25 TRUE
+bsub -e ASAH1_1000_5_IBS_large_12_FALSE.e -o ASAH1_1000_5_IBS_large_12_FALSE.o -n 4 sh CalculateStatAndPValues_TIE_GLM_GammaOnly_BetaSig.sh 8 1000 8937363 ASAH1 5 IBS 1 3000 large 25 FALSE
